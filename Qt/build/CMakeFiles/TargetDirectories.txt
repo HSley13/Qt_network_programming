@@ -1,0 +1,6 @@
+/Users/test/Documents/network_programming/Qt/build/CMakeFiles/network.dir
+/Users/test/Documents/network_programming/Qt/build/CMakeFiles/network_qmlimportscan.dir
+/Users/test/Documents/network_programming/Qt/build/CMakeFiles/edit_cache.dir
+/Users/test/Documents/network_programming/Qt/build/CMakeFiles/rebuild_cache.dir
+/Users/test/Documents/network_programming/Qt/build/CMakeFiles/network_autogen_timestamp_deps.dir
+/Users/test/Documents/network_programming/Qt/build/CMakeFiles/network_autogen.dir

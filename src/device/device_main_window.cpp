@@ -23,6 +23,7 @@ device_main_window::device_main_window(QWidget *parent)
     connect(_socket, &QTcpSocket::disconnected, this, &device_main_window::disconnected);
     connect(_socket, &QTcpSocket::stateChanged, this, &device_main_window::stateChanged);
     connect(_socket, &QTcpSocket::errorOccurred, this, &device_main_window::errorOccurred);
+    connect(_socket, &QTcpSocket::readyRead, this, &device_main_window::socket_ready_read);
 }
 
 QAbstractSocket::SocketState device_main_window::state()
@@ -53,4 +54,10 @@ void device_main_window::connect_to_device(QString ip, int port)
     _ip = ip;
     _port = port;
     _socket->connectToHost(_ip, _port);
+}
+
+void device_main_window::socket_ready_read()
+{
+    QByteArray data = _socket->readAll();
+    emit data_ready(data);
 }

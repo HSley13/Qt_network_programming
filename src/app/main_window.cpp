@@ -50,18 +50,23 @@ main_window::main_window(QWidget *parent)
     connect(confirm_button, &QPushButton::clicked, this, &main_window::device_connection);
 
     list = new QListWidget();
+    QPushButton *clear_button = new QPushButton("clear", this);
+    connect(clear_button, &QPushButton::clicked, this, [=]()
+            { list->clear(); });
 
     _controller = new device_main_window();
     connect(_controller, &device_main_window::connected, this, &main_window::device_connected);
     connect(_controller, &device_main_window::disconnected, this, &main_window::device_disconnected);
     connect(_controller, &device_main_window::stateChanged, this, &main_window::device_stateChanged);
     connect(_controller, &device_main_window::errorOccurred, this, &main_window::device_errorOccurred);
+    connect(_controller, &device_main_window::data_ready, this, &main_window::device_data_ready);
 
     QVBoxLayout *VBOX = new QVBoxLayout();
     VBOX->addLayout(hbox_1);
     VBOX->addLayout(hbox_2);
     VBOX->addWidget(confirm_button);
     VBOX->addWidget(list);
+    VBOX->addWidget(clear_button);
     VBOX->setAlignment(Qt::AlignCenter);
 
     central_widget->setLayout(VBOX);
@@ -121,4 +126,9 @@ void main_window::device_errorOccurred(QAbstractSocket::SocketError error)
 {
     QMetaEnum meta_enum = QMetaEnum::fromType<QAbstractSocket::SocketError>();
     list->addItem(meta_enum.valueToKey(error));
+}
+
+void main_window::device_data_ready(QByteArray data)
+{
+    list->addItem(QString(data));
 }

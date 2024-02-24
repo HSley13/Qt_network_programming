@@ -2010,8 +2010,6 @@ app/CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_prog
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtWidgets/qwidget.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QMetaEnum \
-  /opt/homebrew/lib/QtCore.framework/Headers/qmetaobject.h \
   /opt/homebrew/lib/QtNetwork.framework/Headers/QAbstractSocket \
   /opt/homebrew/lib/QtNetwork.framework/Headers/QHostAddress \
   /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
@@ -3063,8 +3061,6 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
 
 /opt/homebrew/lib/QtNetwork.framework/Headers/qabstractsocket.h:
 
-/opt/homebrew/lib/QtCore.framework/Headers/QMetaEnum:
-
 /opt/homebrew/include/QtWidgets/qlayoutitem.h:
 
 /opt/homebrew/include/QtWidgets/qlayout.h:
@@ -3926,8 +3922,6 @@ app/network_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/declval.h:
-
-/opt/homebrew/lib/QtCore.framework/Headers/qmetaobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/dangling.h:
 

@@ -36,4 +36,5 @@ private slots:
     void device_disconnected();
     void device_stateChanged(QAbstractSocket::SocketState);
     void device_errorOccurred(QAbstractSocket::SocketError);
+    void device_data_ready(QByteArray);
 };

@@ -29,4 +29,8 @@ signals:
     void disconnected();
     void stateChanged(QAbstractSocket::SocketState);
     void errorOccurred(QAbstractSocket::SocketError);
+    void data_ready(QByteArray);
+
+private slots:
+    void socket_ready_read();
 };

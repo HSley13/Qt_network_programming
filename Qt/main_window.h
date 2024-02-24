@@ -29,4 +29,5 @@ private:
 
 private slots:
     void device_connection(QString ip, int port);
+    void text_changed(const QString &arg1);
 };

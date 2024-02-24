@@ -8,7 +8,10 @@
 #include <QLineEdit>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
+#include <QStyle>
 #include <QSpinBox>
+#include <QHostAddress>
+#include <QAbstractSocket>
 
 main_window::main_window(QWidget *parent)
     : QMainWindow(parent)
@@ -19,7 +22,15 @@ main_window::main_window(QWidget *parent)
 
     QLabel *ip_address = new QLabel("Insert the IP Address: ", this);
     insert_ip = new QLineEdit(this);
-    insert_ip->setInputMask("000.000.000.000");
+    insert_ip->setInputMask("000.000.000.000;_");
+    insert_ip->setClearButtonEnabled(true);
+    insert_ip->setObjectName("ip");
+    insert_ip->setStyleSheet(R"(
+                            #ip[state = "0"] {border: 1px solid red;}
+                            #ip[state = "1"] {border: 1px solid gray;}
+                            )");
+
+    connect(insert_ip, &QLineEdit::textChanged, this, &main_window::text_changed);
     QHBoxLayout *hbox_1 = new QHBoxLayout();
     hbox_1->addWidget(ip_address);
     hbox_1->addWidget(insert_ip);
@@ -35,9 +46,9 @@ main_window::main_window(QWidget *parent)
     QPushButton *confirm = new QPushButton("Connect", this);
     connect(confirm, &QPushButton::clicked, this, [=]()
             {
-            QString device_ip = insert_ip->text();
-            int device_port = insert_port->text().toInt();
-            device_connection(device_ip, device_port); });
+        QString device_ip = insert_ip->text();
+        int device_port = insert_port->text().toInt();
+        device_connection(device_ip, device_port); });
 
     QVBoxLayout *VBOX = new QVBoxLayout();
     VBOX->addLayout(hbox_1);
@@ -46,6 +57,24 @@ main_window::main_window(QWidget *parent)
     VBOX->setAlignment(Qt::AlignCenter);
 
     central_widget->setLayout(VBOX);
+}
+
+void main_window::text_changed(const QString &arg1)
+{
+    QString state = "0";
+    if (arg1 == "...")
+        state = "";
+
+    else
+    {
+        QHostAddress address(arg1);
+
+        if (!address.isNull() && address.protocol() == QAbstractSocket::IPv4Protocol)
+            state = "1";
+    }
+
+    insert_ip->setProperty("state", state);
+    insert_ip->style()->polish(insert_ip);
 }
 
 void main_window::device_connection(QString ip, int port)

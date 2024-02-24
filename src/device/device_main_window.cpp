@@ -61,3 +61,8 @@ void device_main_window::socket_ready_read()
     QByteArray data = _socket->readAll();
     emit data_ready(data);
 }
+
+void device_main_window::send(QString message)
+{
+    _socket->write(message.toUtf8());
+}

@@ -14,6 +14,7 @@ public:
     void disconnect();
     QAbstractSocket::SocketState state();
     bool isConnected();
+    void send(QString);
 
 private:
     QWidget *central_widget;

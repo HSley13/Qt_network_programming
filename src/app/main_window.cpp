@@ -54,6 +54,19 @@ main_window::main_window(QWidget *parent)
     connect(clear_button, &QPushButton::clicked, this, [=]()
             { list->clear(); });
 
+    QLabel *message = new QLabel("Insert Message", this);
+    insert_message = new QLineEdit();
+    QHBoxLayout *hbox_3 = new QHBoxLayout();
+    QPushButton *send = new QPushButton("Send", this);
+    connect(send, &QPushButton::clicked, this, &main_window::send_func);
+    hbox_3->addWidget(message);
+    hbox_3->addWidget(insert_message);
+    hbox_3->addWidget(send);
+
+    group = new QGroupBox();
+    group->setLayout(hbox_3);
+    group->setEnabled(true);
+
     _controller = new device_main_window();
     connect(_controller, &device_main_window::connected, this, &main_window::device_connected);
     connect(_controller, &device_main_window::disconnected, this, &main_window::device_disconnected);
@@ -67,6 +80,7 @@ main_window::main_window(QWidget *parent)
     VBOX->addWidget(confirm_button);
     VBOX->addWidget(list);
     VBOX->addWidget(clear_button);
+    VBOX->addWidget(group);
     VBOX->setAlignment(Qt::AlignCenter);
 
     central_widget->setLayout(VBOX);
@@ -108,12 +122,16 @@ void main_window::device_connected()
 {
     list->addItem("Connected to Device");
     confirm_button->setText("Disconnect");
+
+    group->setEnabled(true);
 }
 
 void main_window::device_disconnected()
 {
     list->addItem("Disconnected to Device");
     confirm_button->setText("Connect");
+
+    group->setEnabled(false);
 }
 
 void main_window::device_stateChanged(QAbstractSocket::SocketState state)
@@ -131,4 +149,12 @@ void main_window::device_errorOccurred(QAbstractSocket::SocketError error)
 void main_window::device_data_ready(QByteArray data)
 {
     list->addItem(QString(data));
+}
+
+void main_window::send_func()
+{
+    QString message = insert_message->text().trimmed();
+
+    _controller->send(message);
+    insert_message->clear();
 }

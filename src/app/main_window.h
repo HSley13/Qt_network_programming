@@ -9,6 +9,7 @@
 #include <QSpinBox>
 #include <QListWidget>
 #include <QPushButton>
+#include <QGroupBox>
 
 class main_window : public QMainWindow
 {
@@ -21,6 +22,8 @@ private:
     QWidget *central_widget;
 
     QLineEdit *insert_ip;
+    QLineEdit *insert_message;
+
     QSpinBox *insert_port;
     QListWidget *list;
 
@@ -28,9 +31,12 @@ private:
 
     device_main_window *_controller;
 
+    QGroupBox *group;
+
 private slots:
     void device_connection();
     void text_changed(const QString &arg1);
+    void send_func();
 
     void device_connected();
     void device_disconnected();

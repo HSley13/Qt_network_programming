@@ -1000,4 +1000,7 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtWidgets/qstyle.h \
   /opt/homebrew/include/QtWidgets/qtabbar.h \
   /opt/homebrew/include/QtWidgets/qrubberband.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /opt/homebrew/include/QtWidgets/qabstractbutton.h \
   /opt/homebrew/include/QtCore/qtmochelpers.h

@@ -46,8 +46,8 @@ main_window::main_window(QWidget *parent)
     hbox_2->addWidget(port_number);
     hbox_2->addWidget(insert_port);
 
-    QPushButton *confirm = new QPushButton("Connect", this);
-    connect(confirm, &QPushButton::clicked, this, &main_window::device_connection);
+    confirm_button = new QPushButton("Connect", this);
+    connect(confirm_button, &QPushButton::clicked, this, &main_window::device_connection);
 
     list = new QListWidget();
 
@@ -60,7 +60,7 @@ main_window::main_window(QWidget *parent)
     QVBoxLayout *VBOX = new QVBoxLayout();
     VBOX->addLayout(hbox_1);
     VBOX->addLayout(hbox_2);
-    VBOX->addWidget(confirm);
+    VBOX->addWidget(confirm_button);
     VBOX->addWidget(list);
     VBOX->setAlignment(Qt::AlignCenter);
 
@@ -87,20 +87,28 @@ void main_window::text_changed(const QString &arg1)
 
 void main_window::device_connection()
 {
-    QString ip = insert_ip->text();
-    int port = insert_port->value();
+    if (_controller->isConnected())
+        _controller->disconnect();
 
-    _controller->connect_to_device(ip, port);
+    else
+    {
+        QString ip = insert_ip->text();
+        int port = insert_port->value();
+
+        _controller->connect_to_device(ip, port);
+    }
 }
 
 void main_window::device_connected()
 {
     list->addItem("Connected to Device");
+    confirm_button->setText("Disconnect");
 }
 
 void main_window::device_disconnected()
 {
     list->addItem("Disconnected to Device");
+    confirm_button->setText("Connect");
 }
 
 void main_window::device_stateChanged(QAbstractSocket::SocketState state)

@@ -11,6 +11,9 @@ class device_main_window : public QMainWindow
 public:
     device_main_window(QWidget *parent = nullptr);
     void connect_to_device(QString ip, int port);
+    void disconnect();
+    QAbstractSocket::SocketState state();
+    bool isConnected();
 
 private:
     QWidget *central_widget;

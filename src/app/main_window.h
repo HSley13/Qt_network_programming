@@ -8,6 +8,7 @@
 #include <QLineEdit>
 #include <QSpinBox>
 #include <QListWidget>
+#include <QPushButton>
 
 class main_window : public QMainWindow
 {
@@ -22,6 +23,8 @@ private:
     QLineEdit *insert_ip;
     QSpinBox *insert_port;
     QListWidget *list;
+
+    QPushButton *confirm_button;
 
     device_main_window *_controller;
 

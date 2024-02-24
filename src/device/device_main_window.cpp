@@ -25,6 +25,21 @@ device_main_window::device_main_window(QWidget *parent)
     connect(_socket, &QTcpSocket::errorOccurred, this, &device_main_window::errorOccurred);
 }
 
+QAbstractSocket::SocketState device_main_window::state()
+{
+    return _socket->state();
+}
+
+void device_main_window::disconnect()
+{
+    _socket->close();
+}
+
+bool device_main_window::isConnected()
+{
+    return _socket->state() == QAbstractSocket::ConnectedState;
+}
+
 void device_main_window::connect_to_device(QString ip, int port)
 {
     if (_socket->isOpen())

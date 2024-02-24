@@ -979,6 +979,7 @@ app/CMakeFiles/network.dir/main.cpp.o: /Users/test/Documents/network_programming
   /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
   /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
   /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
+  /opt/homebrew/include/QtWidgets/qabstractbutton.h \
   /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h \
   /opt/homebrew/include/QtWidgets/qabstractitemview.h \
   /opt/homebrew/include/QtWidgets/qabstractscrollarea.h \
@@ -1003,12 +1004,14 @@ app/CMakeFiles/network.dir/main.cpp.o: /Users/test/Documents/network_programming
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QListWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlistwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qspinbox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
 
@@ -3009,6 +3012,7 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
   /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
   /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
   /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
+  /opt/homebrew/include/QtWidgets/qabstractbutton.h \
   /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h \
   /opt/homebrew/include/QtWidgets/qabstractitemview.h \
   /opt/homebrew/include/QtWidgets/qabstractscrollarea.h \
@@ -3032,11 +3036,13 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QListWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlistwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qspinbox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
 
@@ -3052,8 +3058,6 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
 /opt/homebrew/lib/QtWidgets.framework/Headers/QVBoxLayout:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QStyle:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout:
 
@@ -3076,6 +3080,8 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
 /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow:
 

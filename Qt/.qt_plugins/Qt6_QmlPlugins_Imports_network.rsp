@@ -1,9 +1,0 @@
--rootPath
-/Users/test/Documents/network_programming/Qt
--cmake-output
--output-file
-/Users/test/Documents/network_programming/Qt/.qt_plugins/Qt6_QmlPlugins_Imports_network.cmake
--importPath
-/Users/test/Documents/network_programming/Qt
--importPath
-/opt/homebrew/share/qt/qml

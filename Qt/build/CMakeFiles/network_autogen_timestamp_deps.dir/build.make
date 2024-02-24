@@ -66,9 +66,10 @@ include CMakeFiles/network_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/network_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/network_autogen_timestamp_deps: /opt/homebrew/lib/QtQuick.framework/Versions/A/QtQuick
-CMakeFiles/network_autogen_timestamp_deps: /opt/homebrew/share/qt/libexec/uic
 CMakeFiles/network_autogen_timestamp_deps: /opt/homebrew/share/qt/libexec/moc
+CMakeFiles/network_autogen_timestamp_deps: /opt/homebrew/lib/QtQuick.framework/Versions/A/QtQuick
+CMakeFiles/network_autogen_timestamp_deps: /opt/homebrew/lib/QtNetwork.framework/Versions/A/QtNetwork
+CMakeFiles/network_autogen_timestamp_deps: /opt/homebrew/share/qt/libexec/uic
 CMakeFiles/network_autogen_timestamp_deps: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
 
 network_autogen_timestamp_deps: CMakeFiles/network_autogen_timestamp_deps

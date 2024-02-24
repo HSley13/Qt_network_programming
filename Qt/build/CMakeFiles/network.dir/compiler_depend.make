@@ -862,6 +862,7 @@ CMakeFiles/network.dir/main.cpp.o: /Users/test/Documents/network_programming/Qt/
   /opt/homebrew/include/QtCore/qglobalstatic.h \
   /opt/homebrew/include/QtCore/qhash.h \
   /opt/homebrew/include/QtCore/qhashfunctions.h \
+  /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtCore/qiodevicebase.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
@@ -890,6 +891,7 @@ CMakeFiles/network.dir/main.cpp.o: /Users/test/Documents/network_programming/Qt/
   /opt/homebrew/include/QtCore/qprocessordetection.h \
   /opt/homebrew/include/QtCore/qrect.h \
   /opt/homebrew/include/QtCore/qrefcount.h \
+  /opt/homebrew/include/QtCore/qregularexpression.h \
   /opt/homebrew/include/QtCore/qscopedpointer.h \
   /opt/homebrew/include/QtCore/qscopeguard.h \
   /opt/homebrew/include/QtCore/qset.h \
@@ -930,6 +932,7 @@ CMakeFiles/network.dir/main.cpp.o: /Users/test/Documents/network_programming/Qt/
   /opt/homebrew/include/QtCore/qtversionchecks.h \
   /opt/homebrew/include/QtCore/qtypeinfo.h \
   /opt/homebrew/include/QtCore/qtypes.h \
+  /opt/homebrew/include/QtCore/qurl.h \
   /opt/homebrew/include/QtCore/qutf8stringview.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtCore/qvarlengtharray.h \
@@ -951,17 +954,30 @@ CMakeFiles/network.dir/main.cpp.o: /Users/test/Documents/network_programming/Qt/
   /opt/homebrew/include/QtGui/qkeysequence.h \
   /opt/homebrew/include/QtGui/qpaintdevice.h \
   /opt/homebrew/include/QtGui/qpalette.h \
+  /opt/homebrew/include/QtGui/qpen.h \
+  /opt/homebrew/include/QtGui/qpicture.h \
   /opt/homebrew/include/QtGui/qpixelformat.h \
   /opt/homebrew/include/QtGui/qpixmap.h \
   /opt/homebrew/include/QtGui/qpolygon.h \
   /opt/homebrew/include/QtGui/qregion.h \
   /opt/homebrew/include/QtGui/qrgb.h \
   /opt/homebrew/include/QtGui/qrgba64.h \
+  /opt/homebrew/include/QtGui/qtextcursor.h \
+  /opt/homebrew/include/QtGui/qtextdocument.h \
+  /opt/homebrew/include/QtGui/qtextformat.h \
+  /opt/homebrew/include/QtGui/qtextoption.h \
   /opt/homebrew/include/QtGui/qtgui-config.h \
   /opt/homebrew/include/QtGui/qtguiexports.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
   /opt/homebrew/include/QtGui/qtransform.h \
+  /opt/homebrew/include/QtGui/qvalidator.h \
   /opt/homebrew/include/QtGui/qwindowdefs.h \
+  /opt/homebrew/include/QtNetwork/qabstractsocket.h \
+  /opt/homebrew/include/QtNetwork/qhostaddress.h \
+  /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
+  /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
+  /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
+  /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
   /opt/homebrew/include/QtWidgets/qframe.h \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
@@ -969,12 +985,20 @@ CMakeFiles/network.dir/main.cpp.o: /Users/test/Documents/network_programming/Qt/
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtWidgets/qwidget.h \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QStackedWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qspinbox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qstackedwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
 
@@ -1835,12 +1859,14 @@ CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_programm
   /opt/homebrew/include/QtCore/qglobalstatic.h \
   /opt/homebrew/include/QtCore/qhash.h \
   /opt/homebrew/include/QtCore/qhashfunctions.h \
+  /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtCore/qiodevicebase.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
   /opt/homebrew/include/QtCore/qlatin1stringview.h \
   /opt/homebrew/include/QtCore/qline.h \
   /opt/homebrew/include/QtCore/qlist.h \
+  /opt/homebrew/include/QtCore/qlocale.h \
   /opt/homebrew/include/QtCore/qlogging.h \
   /opt/homebrew/include/QtCore/qmalloc.h \
   /opt/homebrew/include/QtCore/qmap.h \
@@ -1861,6 +1887,7 @@ CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_programm
   /opt/homebrew/include/QtCore/qprocessordetection.h \
   /opt/homebrew/include/QtCore/qrect.h \
   /opt/homebrew/include/QtCore/qrefcount.h \
+  /opt/homebrew/include/QtCore/qregularexpression.h \
   /opt/homebrew/include/QtCore/qscopedpointer.h \
   /opt/homebrew/include/QtCore/qscopeguard.h \
   /opt/homebrew/include/QtCore/qset.h \
@@ -1901,6 +1928,7 @@ CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_programm
   /opt/homebrew/include/QtCore/qtversionchecks.h \
   /opt/homebrew/include/QtCore/qtypeinfo.h \
   /opt/homebrew/include/QtCore/qtypes.h \
+  /opt/homebrew/include/QtCore/qurl.h \
   /opt/homebrew/include/QtCore/qutf8stringview.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtCore/qvarlengtharray.h \
@@ -1919,34 +1947,64 @@ CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_programm
   /opt/homebrew/include/QtGui/qkeysequence.h \
   /opt/homebrew/include/QtGui/qpaintdevice.h \
   /opt/homebrew/include/QtGui/qpalette.h \
+  /opt/homebrew/include/QtGui/qpen.h \
+  /opt/homebrew/include/QtGui/qpicture.h \
   /opt/homebrew/include/QtGui/qpixelformat.h \
   /opt/homebrew/include/QtGui/qpixmap.h \
   /opt/homebrew/include/QtGui/qpolygon.h \
   /opt/homebrew/include/QtGui/qregion.h \
   /opt/homebrew/include/QtGui/qrgb.h \
   /opt/homebrew/include/QtGui/qrgba64.h \
+  /opt/homebrew/include/QtGui/qtextcursor.h \
+  /opt/homebrew/include/QtGui/qtextdocument.h \
+  /opt/homebrew/include/QtGui/qtextformat.h \
+  /opt/homebrew/include/QtGui/qtextoption.h \
   /opt/homebrew/include/QtGui/qtgui-config.h \
   /opt/homebrew/include/QtGui/qtguiexports.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
   /opt/homebrew/include/QtGui/qtransform.h \
+  /opt/homebrew/include/QtGui/qvalidator.h \
   /opt/homebrew/include/QtGui/qwindowdefs.h \
+  /opt/homebrew/include/QtNetwork/qabstractsocket.h \
+  /opt/homebrew/include/QtNetwork/qhostaddress.h \
+  /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
+  /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
+  /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
   /opt/homebrew/include/QtWidgets/qabstractbutton.h \
+  /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
+  /opt/homebrew/include/QtWidgets/qboxlayout.h \
   /opt/homebrew/include/QtWidgets/qdialog.h \
   /opt/homebrew/include/QtWidgets/qframe.h \
+  /opt/homebrew/include/QtWidgets/qgridlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayoutitem.h \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtWidgets/qwidget.h \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QGroupBox \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QStackedWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qgroupbox.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qspinbox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qstackedwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
 
@@ -2808,12 +2866,14 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
   /opt/homebrew/include/QtCore/qglobalstatic.h \
   /opt/homebrew/include/QtCore/qhash.h \
   /opt/homebrew/include/QtCore/qhashfunctions.h \
+  /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtCore/qiodevicebase.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
   /opt/homebrew/include/QtCore/qlatin1stringview.h \
   /opt/homebrew/include/QtCore/qline.h \
   /opt/homebrew/include/QtCore/qlist.h \
+  /opt/homebrew/include/QtCore/qlocale.h \
   /opt/homebrew/include/QtCore/qlogging.h \
   /opt/homebrew/include/QtCore/qmalloc.h \
   /opt/homebrew/include/QtCore/qmap.h \
@@ -2834,6 +2894,7 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
   /opt/homebrew/include/QtCore/qprocessordetection.h \
   /opt/homebrew/include/QtCore/qrect.h \
   /opt/homebrew/include/QtCore/qrefcount.h \
+  /opt/homebrew/include/QtCore/qregularexpression.h \
   /opt/homebrew/include/QtCore/qscopedpointer.h \
   /opt/homebrew/include/QtCore/qscopeguard.h \
   /opt/homebrew/include/QtCore/qset.h \
@@ -2875,6 +2936,7 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
   /opt/homebrew/include/QtCore/qtversionchecks.h \
   /opt/homebrew/include/QtCore/qtypeinfo.h \
   /opt/homebrew/include/QtCore/qtypes.h \
+  /opt/homebrew/include/QtCore/qurl.h \
   /opt/homebrew/include/QtCore/qutf8stringview.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtCore/qvarlengtharray.h \
@@ -2893,17 +2955,30 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
   /opt/homebrew/include/QtGui/qkeysequence.h \
   /opt/homebrew/include/QtGui/qpaintdevice.h \
   /opt/homebrew/include/QtGui/qpalette.h \
+  /opt/homebrew/include/QtGui/qpen.h \
+  /opt/homebrew/include/QtGui/qpicture.h \
   /opt/homebrew/include/QtGui/qpixelformat.h \
   /opt/homebrew/include/QtGui/qpixmap.h \
   /opt/homebrew/include/QtGui/qpolygon.h \
   /opt/homebrew/include/QtGui/qregion.h \
   /opt/homebrew/include/QtGui/qrgb.h \
   /opt/homebrew/include/QtGui/qrgba64.h \
+  /opt/homebrew/include/QtGui/qtextcursor.h \
+  /opt/homebrew/include/QtGui/qtextdocument.h \
+  /opt/homebrew/include/QtGui/qtextformat.h \
+  /opt/homebrew/include/QtGui/qtextoption.h \
   /opt/homebrew/include/QtGui/qtgui-config.h \
   /opt/homebrew/include/QtGui/qtguiexports.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
   /opt/homebrew/include/QtGui/qtransform.h \
+  /opt/homebrew/include/QtGui/qvalidator.h \
   /opt/homebrew/include/QtGui/qwindowdefs.h \
+  /opt/homebrew/include/QtNetwork/qabstractsocket.h \
+  /opt/homebrew/include/QtNetwork/qhostaddress.h \
+  /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
+  /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
+  /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
+  /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
   /opt/homebrew/include/QtWidgets/qframe.h \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
@@ -2911,10 +2986,18 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtWidgets/qwidget.h \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
+  /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QStackedWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qspinbox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qstackedwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
 
@@ -2923,7 +3006,19 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/qgroupbox.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/QVBoxLayout:
+
 /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout:
+
+/opt/homebrew/include/QtWidgets/qlayoutitem.h:
+
+/opt/homebrew/include/QtWidgets/qlayout.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h:
 
@@ -2931,21 +3026,45 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h:
+
 /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QStackedWidget:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit:
+
 /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication:
+
+/opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket:
 
 /opt/homebrew/include/QtWidgets/qwidget.h:
 
 /opt/homebrew/include/QtWidgets/qframe.h:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h:
+
+/opt/homebrew/include/QtWidgets/qabstractspinbox.h:
+
+/opt/homebrew/include/QtNetwork/qtnetworkexports.h:
+
+/opt/homebrew/include/QtNetwork/qtnetwork-config.h:
+
+/opt/homebrew/include/QtNetwork/qhostaddress.h:
+
 /opt/homebrew/include/QtGui/qwindowdefs.h:
 
 /opt/homebrew/include/QtGui/qtguiexports.h:
+
+/opt/homebrew/include/QtGui/qtextoption.h:
+
+/opt/homebrew/include/QtGui/qtextformat.h:
+
+/opt/homebrew/include/QtGui/qpicture.h:
+
+/opt/homebrew/include/QtGui/qpen.h:
 
 /opt/homebrew/include/QtGui/qpaintdevice.h:
 
@@ -3029,6 +3148,8 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 
 /opt/homebrew/include/QtCore/qset.h:
 
+/opt/homebrew/include/QtNetwork/qabstractsocket.h:
+
 /opt/homebrew/include/QtCore/qscopeguard.h:
 
 /opt/homebrew/include/QtCore/qscopedpointer.h:
@@ -3060,6 +3181,8 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 /opt/homebrew/include/QtCore/qiterable.h:
 
 /opt/homebrew/include/QtCore/qiodevicebase.h:
+
+/opt/homebrew/include/QtCore/qiodevice.h:
 
 /opt/homebrew/include/QtCore/qhash.h:
 
@@ -3157,6 +3280,8 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/signal.h:
 
+/opt/homebrew/include/QtGui/qtextcursor.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_wint_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_va_list.h:
@@ -3217,6 +3342,8 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_in_addr_t.h:
 
+/opt/homebrew/include/QtCore/qurl.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/forward_like.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_gid_t.h:
@@ -3237,11 +3364,15 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
+/opt/homebrew/include/QtCore/qregularexpression.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int64_t.h:
 
 /opt/homebrew/include/QtCore/qcompare.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
+
+/opt/homebrew/include/QtGui/qtextdocument.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_is_sorted.h:
 
@@ -3821,6 +3952,8 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/allocator.h:
 
+/opt/homebrew/include/QtWidgets/qgridlayout.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/variant:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ino64_t.h:
@@ -3858,6 +3991,10 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/minmax.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qspinbox.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/mergeable.h:
 
@@ -3924,6 +4061,8 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/distance.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_enum.h:
+
+/opt/homebrew/include/QtWidgets/qboxlayout.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/find_if.h:
 
@@ -4103,6 +4242,8 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_base_of.h:
 
+/opt/homebrew/include/QtNetwork/qtnetworkglobal.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__concepts/convertible_to.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_unique.h:
@@ -4149,6 +4290,8 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/default_searcher.h:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/QLabel:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
@@ -4172,6 +4315,8 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/year.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/QGroupBox:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/compare_weak_order_fallback.h:
 
@@ -4665,6 +4810,8 @@ CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: network_autogen/m
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_uintmax_t.h:
 
+/opt/homebrew/include/QtGui/qvalidator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_is_heap_until.h:
 
 network_autogen/mocs_compilation.cpp:
@@ -4790,6 +4937,8 @@ network_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
+
+/opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_intmax_t.h:
 

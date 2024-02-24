@@ -2,10 +2,7 @@
 
 #include <iostream>
 #include <QMainWindow>
-#include <QWidget>
 #include <QTcpSocket>
-#include <QLineEdit>
-#include <QSpinBox>
 
 class device_main_window : public QMainWindow
 {
@@ -13,7 +10,7 @@ class device_main_window : public QMainWindow
 
 public:
     device_main_window(QWidget *parent = nullptr);
-    void connect_to(QString ip, int port);
+    void connect_to_device(QString ip, int port);
 
 private:
     QWidget *central_widget;
@@ -28,7 +25,5 @@ signals:
     void connected();
     void disconnected();
     void stateChanged(QAbstractSocket::SocketState);
-    void errorOccured(QAbstractSocket::SocketError);
-
-private slots:
+    void errorOccurred(QAbstractSocket::SocketError);
 };

@@ -821,6 +821,7 @@ app/CMakeFiles/network.dir/main.cpp.o: /Users/test/Documents/network_programming
   /opt/homebrew/include/QtCore/q20memory.h \
   /opt/homebrew/include/QtCore/q20type_traits.h \
   /opt/homebrew/include/QtCore/q23utility.h \
+  /opt/homebrew/include/QtCore/qabstractitemmodel.h \
   /opt/homebrew/include/QtCore/qalgorithms.h \
   /opt/homebrew/include/QtCore/qanystringview.h \
   /opt/homebrew/include/QtCore/qarraydata.h \
@@ -865,6 +866,7 @@ app/CMakeFiles/network.dir/main.cpp.o: /Users/test/Documents/network_programming
   /opt/homebrew/include/QtCore/qhashfunctions.h \
   /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtCore/qiodevicebase.h \
+  /opt/homebrew/include/QtCore/qitemselectionmodel.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
   /opt/homebrew/include/QtCore/qlatin1stringview.h \
@@ -977,9 +979,19 @@ app/CMakeFiles/network.dir/main.cpp.o: /Users/test/Documents/network_programming
   /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
   /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
   /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemview.h \
+  /opt/homebrew/include/QtWidgets/qabstractscrollarea.h \
+  /opt/homebrew/include/QtWidgets/qabstractslider.h \
   /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
   /opt/homebrew/include/QtWidgets/qframe.h \
+  /opt/homebrew/include/QtWidgets/qlistview.h \
+  /opt/homebrew/include/QtWidgets/qrubberband.h \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
+  /opt/homebrew/include/QtWidgets/qslider.h \
+  /opt/homebrew/include/QtWidgets/qstyle.h \
+  /opt/homebrew/include/QtWidgets/qstyleoption.h \
+  /opt/homebrew/include/QtWidgets/qtabbar.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
@@ -989,11 +1001,13 @@ app/CMakeFiles/network.dir/main.cpp.o: /Users/test/Documents/network_programming
   /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QListWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlistwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qspinbox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
@@ -1818,6 +1832,7 @@ app/CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_prog
   /opt/homebrew/include/QtCore/q20memory.h \
   /opt/homebrew/include/QtCore/q20type_traits.h \
   /opt/homebrew/include/QtCore/q23utility.h \
+  /opt/homebrew/include/QtCore/qabstractitemmodel.h \
   /opt/homebrew/include/QtCore/qalgorithms.h \
   /opt/homebrew/include/QtCore/qanystringview.h \
   /opt/homebrew/include/QtCore/qarraydata.h \
@@ -1858,6 +1873,7 @@ app/CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_prog
   /opt/homebrew/include/QtCore/qhashfunctions.h \
   /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtCore/qiodevicebase.h \
+  /opt/homebrew/include/QtCore/qitemselectionmodel.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
   /opt/homebrew/include/QtCore/qlatin1stringview.h \
@@ -1968,6 +1984,10 @@ app/CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_prog
   /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
   /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
   /opt/homebrew/include/QtWidgets/qabstractbutton.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemview.h \
+  /opt/homebrew/include/QtWidgets/qabstractscrollarea.h \
+  /opt/homebrew/include/QtWidgets/qabstractslider.h \
   /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
   /opt/homebrew/include/QtWidgets/qboxlayout.h \
   /opt/homebrew/include/QtWidgets/qdialog.h \
@@ -1975,12 +1995,20 @@ app/CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_prog
   /opt/homebrew/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/include/QtWidgets/qlayout.h \
   /opt/homebrew/include/QtWidgets/qlayoutitem.h \
+  /opt/homebrew/include/QtWidgets/qlistview.h \
+  /opt/homebrew/include/QtWidgets/qrubberband.h \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
+  /opt/homebrew/include/QtWidgets/qslider.h \
+  /opt/homebrew/include/QtWidgets/qstyle.h \
+  /opt/homebrew/include/QtWidgets/qstyleoption.h \
+  /opt/homebrew/include/QtWidgets/qtabbar.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtWidgets/qwidget.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QMetaEnum \
+  /opt/homebrew/lib/QtCore.framework/Headers/qmetaobject.h \
   /opt/homebrew/lib/QtNetwork.framework/Headers/QAbstractSocket \
   /opt/homebrew/lib/QtNetwork.framework/Headers/QHostAddress \
   /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
@@ -1990,6 +2018,7 @@ app/CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_prog
   /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QListWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
@@ -2000,6 +2029,7 @@ app/CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_prog
   /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlistwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
@@ -2828,6 +2858,7 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
   /opt/homebrew/include/QtCore/q20memory.h \
   /opt/homebrew/include/QtCore/q20type_traits.h \
   /opt/homebrew/include/QtCore/q23utility.h \
+  /opt/homebrew/include/QtCore/qabstractitemmodel.h \
   /opt/homebrew/include/QtCore/qalgorithms.h \
   /opt/homebrew/include/QtCore/qanystringview.h \
   /opt/homebrew/include/QtCore/qarraydata.h \
@@ -2868,6 +2899,7 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
   /opt/homebrew/include/QtCore/qhashfunctions.h \
   /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtCore/qiodevicebase.h \
+  /opt/homebrew/include/QtCore/qitemselectionmodel.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
   /opt/homebrew/include/QtCore/qlatin1stringview.h \
@@ -2977,9 +3009,19 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
   /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
   /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
   /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemview.h \
+  /opt/homebrew/include/QtWidgets/qabstractscrollarea.h \
+  /opt/homebrew/include/QtWidgets/qabstractslider.h \
   /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
   /opt/homebrew/include/QtWidgets/qframe.h \
+  /opt/homebrew/include/QtWidgets/qlistview.h \
+  /opt/homebrew/include/QtWidgets/qrubberband.h \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
+  /opt/homebrew/include/QtWidgets/qslider.h \
+  /opt/homebrew/include/QtWidgets/qstyle.h \
+  /opt/homebrew/include/QtWidgets/qstyleoption.h \
+  /opt/homebrew/include/QtWidgets/qtabbar.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
@@ -2988,10 +3030,12 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
   /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
   /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QListWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlistwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qspinbox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
@@ -3014,6 +3058,8 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
 /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout:
 
 /opt/homebrew/lib/QtNetwork.framework/Headers/qabstractsocket.h:
+
+/opt/homebrew/lib/QtCore.framework/Headers/QMetaEnum:
 
 /opt/homebrew/include/QtWidgets/qlayoutitem.h:
 
@@ -3041,11 +3087,29 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
 
 /opt/homebrew/include/QtWidgets/qwidget.h:
 
+/opt/homebrew/include/QtWidgets/qtabbar.h:
+
+/opt/homebrew/include/QtWidgets/qstyleoption.h:
+
+/opt/homebrew/include/QtWidgets/qstyle.h:
+
+/opt/homebrew/include/QtWidgets/qslider.h:
+
+/opt/homebrew/include/QtWidgets/qrubberband.h:
+
+/opt/homebrew/include/QtWidgets/qlistview.h:
+
 /opt/homebrew/include/QtWidgets/qframe.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h:
 
 /opt/homebrew/include/QtWidgets/qabstractspinbox.h:
+
+/opt/homebrew/include/QtWidgets/qabstractscrollarea.h:
+
+/opt/homebrew/include/QtWidgets/qabstractitemview.h:
+
+/opt/homebrew/include/QtWidgets/qabstractitemdelegate.h:
 
 /opt/homebrew/include/QtNetwork/qtnetworkexports.h:
 
@@ -3857,6 +3921,8 @@ app/network_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/declval.h:
 
+/opt/homebrew/lib/QtCore.framework/Headers/qmetaobject.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__ranges/dangling.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sched.h:
@@ -4273,7 +4339,11 @@ app/network_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__mbstate_t.h:
 
+/opt/homebrew/include/QtCore/qabstractitemmodel.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/partial_order.h:
+
+/opt/homebrew/include/QtWidgets/qabstractslider.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__compare/ordering.h:
 
@@ -4471,6 +4541,8 @@ app/network_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/typeinfo:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/qlistwidget.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/pthread.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
@@ -4662,6 +4734,8 @@ app/network_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_remove.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/statically_widen.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/QListWidget:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_move_backward.h:
 
@@ -5036,6 +5110,8 @@ app/network_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/make_const_lvalue_ref.h:
 
 app/network_autogen/EWIEGA46WW/moc_main_window.cpp:
+
+/opt/homebrew/include/QtCore/qitemselectionmodel.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
 

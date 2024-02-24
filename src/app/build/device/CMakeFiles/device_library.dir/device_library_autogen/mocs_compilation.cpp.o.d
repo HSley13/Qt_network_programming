@@ -960,8 +960,6 @@ device/CMakeFiles/device_library.dir/device_library_autogen/mocs_compilation.cpp
   /opt/homebrew/include/QtGui/qcursor.h \
   /opt/homebrew/include/QtGui/qbitmap.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
   /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
   /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
@@ -970,19 +968,4 @@ device/CMakeFiles/device_library.dir/device_library_autogen/mocs_compilation.cpp
   /opt/homebrew/include/QtNetwork/qabstractsocket.h \
   /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtNetwork/qhostaddress.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
-  /opt/homebrew/include/QtWidgets/qframe.h \
-  /opt/homebrew/include/QtGui/qtextcursor.h \
-  /opt/homebrew/include/QtGui/qtextdocument.h \
-  /opt/homebrew/include/QtCore/qurl.h \
-  /opt/homebrew/include/QtGui/qtextformat.h \
-  /opt/homebrew/include/QtGui/qpen.h \
-  /opt/homebrew/include/QtGui/qtextoption.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qspinbox.h \
-  /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
-  /opt/homebrew/include/QtGui/qvalidator.h \
-  /opt/homebrew/include/QtCore/qregularexpression.h \
-  /opt/homebrew/include/QtCore/qlocale.h \
   /opt/homebrew/include/QtCore/qtmochelpers.h

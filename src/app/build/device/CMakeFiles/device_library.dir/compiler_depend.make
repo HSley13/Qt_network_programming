@@ -866,7 +866,6 @@ device/CMakeFiles/device_library.dir/device_library_autogen/mocs_compilation.cpp
   /opt/homebrew/include/QtCore/qlatin1stringview.h \
   /opt/homebrew/include/QtCore/qline.h \
   /opt/homebrew/include/QtCore/qlist.h \
-  /opt/homebrew/include/QtCore/qlocale.h \
   /opt/homebrew/include/QtCore/qlogging.h \
   /opt/homebrew/include/QtCore/qmalloc.h \
   /opt/homebrew/include/QtCore/qmap.h \
@@ -887,7 +886,6 @@ device/CMakeFiles/device_library.dir/device_library_autogen/mocs_compilation.cpp
   /opt/homebrew/include/QtCore/qprocessordetection.h \
   /opt/homebrew/include/QtCore/qrect.h \
   /opt/homebrew/include/QtCore/qrefcount.h \
-  /opt/homebrew/include/QtCore/qregularexpression.h \
   /opt/homebrew/include/QtCore/qscopedpointer.h \
   /opt/homebrew/include/QtCore/qscopeguard.h \
   /opt/homebrew/include/QtCore/qset.h \
@@ -929,7 +927,6 @@ device/CMakeFiles/device_library.dir/device_library_autogen/mocs_compilation.cpp
   /opt/homebrew/include/QtCore/qtversionchecks.h \
   /opt/homebrew/include/QtCore/qtypeinfo.h \
   /opt/homebrew/include/QtCore/qtypes.h \
-  /opt/homebrew/include/QtCore/qurl.h \
   /opt/homebrew/include/QtCore/qutf8stringview.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtCore/qvarlengtharray.h \
@@ -948,30 +945,22 @@ device/CMakeFiles/device_library.dir/device_library_autogen/mocs_compilation.cpp
   /opt/homebrew/include/QtGui/qkeysequence.h \
   /opt/homebrew/include/QtGui/qpaintdevice.h \
   /opt/homebrew/include/QtGui/qpalette.h \
-  /opt/homebrew/include/QtGui/qpen.h \
   /opt/homebrew/include/QtGui/qpixelformat.h \
   /opt/homebrew/include/QtGui/qpixmap.h \
   /opt/homebrew/include/QtGui/qpolygon.h \
   /opt/homebrew/include/QtGui/qregion.h \
   /opt/homebrew/include/QtGui/qrgb.h \
   /opt/homebrew/include/QtGui/qrgba64.h \
-  /opt/homebrew/include/QtGui/qtextcursor.h \
-  /opt/homebrew/include/QtGui/qtextdocument.h \
-  /opt/homebrew/include/QtGui/qtextformat.h \
-  /opt/homebrew/include/QtGui/qtextoption.h \
   /opt/homebrew/include/QtGui/qtgui-config.h \
   /opt/homebrew/include/QtGui/qtguiexports.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
   /opt/homebrew/include/QtGui/qtransform.h \
-  /opt/homebrew/include/QtGui/qvalidator.h \
   /opt/homebrew/include/QtGui/qwindowdefs.h \
   /opt/homebrew/include/QtNetwork/qabstractsocket.h \
   /opt/homebrew/include/QtNetwork/qhostaddress.h \
   /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
   /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
   /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
-  /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
-  /opt/homebrew/include/QtWidgets/qframe.h \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
@@ -980,14 +969,8 @@ device/CMakeFiles/device_library.dir/device_library_autogen/mocs_compilation.cpp
   /opt/homebrew/include/QtWidgets/qwidget.h \
   /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
   /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qspinbox.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
 
 device/CMakeFiles/device_library.dir/device_main.cpp.o: /Users/test/Documents/network_programming/src/device/device_main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
@@ -1879,7 +1862,6 @@ device/CMakeFiles/device_library.dir/device_main.cpp.o: /Users/test/Documents/ne
   /opt/homebrew/include/QtCore/qprocessordetection.h \
   /opt/homebrew/include/QtCore/qrect.h \
   /opt/homebrew/include/QtCore/qrefcount.h \
-  /opt/homebrew/include/QtCore/qregularexpression.h \
   /opt/homebrew/include/QtCore/qscopedpointer.h \
   /opt/homebrew/include/QtCore/qscopeguard.h \
   /opt/homebrew/include/QtCore/qset.h \
@@ -1920,7 +1902,6 @@ device/CMakeFiles/device_library.dir/device_main.cpp.o: /Users/test/Documents/ne
   /opt/homebrew/include/QtCore/qtversionchecks.h \
   /opt/homebrew/include/QtCore/qtypeinfo.h \
   /opt/homebrew/include/QtCore/qtypes.h \
-  /opt/homebrew/include/QtCore/qurl.h \
   /opt/homebrew/include/QtCore/qutf8stringview.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtCore/qvarlengtharray.h \
@@ -1942,30 +1923,22 @@ device/CMakeFiles/device_library.dir/device_main.cpp.o: /Users/test/Documents/ne
   /opt/homebrew/include/QtGui/qkeysequence.h \
   /opt/homebrew/include/QtGui/qpaintdevice.h \
   /opt/homebrew/include/QtGui/qpalette.h \
-  /opt/homebrew/include/QtGui/qpen.h \
   /opt/homebrew/include/QtGui/qpixelformat.h \
   /opt/homebrew/include/QtGui/qpixmap.h \
   /opt/homebrew/include/QtGui/qpolygon.h \
   /opt/homebrew/include/QtGui/qregion.h \
   /opt/homebrew/include/QtGui/qrgb.h \
   /opt/homebrew/include/QtGui/qrgba64.h \
-  /opt/homebrew/include/QtGui/qtextcursor.h \
-  /opt/homebrew/include/QtGui/qtextdocument.h \
-  /opt/homebrew/include/QtGui/qtextformat.h \
-  /opt/homebrew/include/QtGui/qtextoption.h \
   /opt/homebrew/include/QtGui/qtgui-config.h \
   /opt/homebrew/include/QtGui/qtguiexports.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
   /opt/homebrew/include/QtGui/qtransform.h \
-  /opt/homebrew/include/QtGui/qvalidator.h \
   /opt/homebrew/include/QtGui/qwindowdefs.h \
   /opt/homebrew/include/QtNetwork/qabstractsocket.h \
   /opt/homebrew/include/QtNetwork/qhostaddress.h \
   /opt/homebrew/include/QtNetwork/qtnetwork-config.h \
   /opt/homebrew/include/QtNetwork/qtnetworkexports.h \
   /opt/homebrew/include/QtNetwork/qtnetworkglobal.h \
-  /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
-  /opt/homebrew/include/QtWidgets/qframe.h \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
@@ -1975,15 +1948,9 @@ device/CMakeFiles/device_library.dir/device_main.cpp.o: /Users/test/Documents/ne
   /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
   /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qspinbox.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
 
 device/CMakeFiles/device_library.dir/device_main_window.cpp.o: /Users/test/Documents/network_programming/src/device/device_main_window.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
@@ -2994,17 +2961,25 @@ device/CMakeFiles/device_library.dir/device_main_window.cpp.o: /Users/test/Docum
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
 
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h:
+
 /opt/homebrew/lib/QtWidgets.framework/Headers/qstyle.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h:
+
 /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/QWidget:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QVBoxLayout:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QStyle:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout:
 
@@ -3014,7 +2989,19 @@ device/CMakeFiles/device_library.dir/device_main_window.cpp.o: /Users/test/Docum
 
 /opt/homebrew/include/QtWidgets/qlayout.h:
 
+/opt/homebrew/include/QtWidgets/qframe.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h:
+
+/opt/homebrew/include/QtWidgets/qabstractspinbox.h:
+
+/opt/homebrew/include/QtGui/qtextoption.h:
+
+/opt/homebrew/include/QtGui/qtextformat.h:
+
 /opt/homebrew/include/QtGui/qpicture.h:
+
+/opt/homebrew/include/QtGui/qpen.h:
 
 /Users/test/Documents/network_programming/src/device/device_main_window.cpp:
 
@@ -3032,27 +3019,13 @@ device/CMakeFiles/device_library.dir/device_main_window.cpp.o: /Users/test/Docum
 
 /opt/homebrew/include/QtCore/qcoreapplication.h:
 
-/opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h:
-
 /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h:
 
-/opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/QWidget:
-
 /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit:
 
 /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket:
 
 /opt/homebrew/include/QtWidgets/qwidget.h:
-
-/opt/homebrew/include/QtWidgets/qframe.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h:
-
-/opt/homebrew/include/QtWidgets/qabstractspinbox.h:
 
 /opt/homebrew/include/QtNetwork/qtnetworkexports.h:
 
@@ -3063,12 +3036,6 @@ device/CMakeFiles/device_library.dir/device_main_window.cpp.o: /Users/test/Docum
 /opt/homebrew/include/QtGui/qwindowdefs.h:
 
 /opt/homebrew/include/QtGui/qtguiexports.h:
-
-/opt/homebrew/include/QtGui/qtextoption.h:
-
-/opt/homebrew/include/QtGui/qtextformat.h:
-
-/opt/homebrew/include/QtGui/qpen.h:
 
 /opt/homebrew/include/QtGui/qpaintdevice.h:
 

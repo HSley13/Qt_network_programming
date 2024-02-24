@@ -1,11 +1,13 @@
 #pragma once
 
+#include <device_main_window.h>
 #include <iostream>
 #include <QMainWindow>
 #include <QWidget>
 #include <QTcpSocket>
 #include <QLineEdit>
 #include <QSpinBox>
+#include <QListWidget>
 
 class main_window : public QMainWindow
 {
@@ -18,17 +20,17 @@ private:
     QWidget *central_widget;
 
     QLineEdit *insert_ip;
-
     QSpinBox *insert_port;
+    QListWidget *list;
 
-    void set_device_controller();
+    device_main_window *_controller;
 
 private slots:
-    void device_connection(QString ip, int port);
+    void device_connection();
     void text_changed(const QString &arg1);
 
     void device_connected();
     void device_disconnected();
     void device_stateChanged(QAbstractSocket::SocketState);
-    void device_errorOccured(QAbstractSocket::SocketError);
+    void device_errorOccurred(QAbstractSocket::SocketError);
 };

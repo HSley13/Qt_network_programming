@@ -42,33 +42,29 @@ static constexpr auto qt_meta_stringdata_CLASSmain_windowENDCLASS = QtMocHelpers
     "main_window",
     "device_connection",
     "",
-    "ip",
-    "port",
     "text_changed",
     "arg1",
     "device_connected",
     "device_disconnected",
     "device_stateChanged",
     "QAbstractSocket::SocketState",
-    "device_errorOccured",
+    "device_errorOccurred",
     "QAbstractSocket::SocketError"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSmain_windowENDCLASS_t {
-    uint offsetsAndSizes[26];
+    uint offsetsAndSizes[22];
     char stringdata0[12];
     char stringdata1[18];
     char stringdata2[1];
-    char stringdata3[3];
+    char stringdata3[13];
     char stringdata4[5];
-    char stringdata5[13];
-    char stringdata6[5];
-    char stringdata7[17];
-    char stringdata8[20];
-    char stringdata9[20];
+    char stringdata5[17];
+    char stringdata6[20];
+    char stringdata7[20];
+    char stringdata8[29];
+    char stringdata9[21];
     char stringdata10[29];
-    char stringdata11[20];
-    char stringdata12[29];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSmain_windowENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -77,29 +73,25 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSmain_windowENDCLASS_t qt_meta_s
         QT_MOC_LITERAL(0, 11),  // "main_window"
         QT_MOC_LITERAL(12, 17),  // "device_connection"
         QT_MOC_LITERAL(30, 0),  // ""
-        QT_MOC_LITERAL(31, 2),  // "ip"
-        QT_MOC_LITERAL(34, 4),  // "port"
-        QT_MOC_LITERAL(39, 12),  // "text_changed"
-        QT_MOC_LITERAL(52, 4),  // "arg1"
-        QT_MOC_LITERAL(57, 16),  // "device_connected"
-        QT_MOC_LITERAL(74, 19),  // "device_disconnected"
-        QT_MOC_LITERAL(94, 19),  // "device_stateChanged"
-        QT_MOC_LITERAL(114, 28),  // "QAbstractSocket::SocketState"
-        QT_MOC_LITERAL(143, 19),  // "device_errorOccured"
-        QT_MOC_LITERAL(163, 28)   // "QAbstractSocket::SocketError"
+        QT_MOC_LITERAL(31, 12),  // "text_changed"
+        QT_MOC_LITERAL(44, 4),  // "arg1"
+        QT_MOC_LITERAL(49, 16),  // "device_connected"
+        QT_MOC_LITERAL(66, 19),  // "device_disconnected"
+        QT_MOC_LITERAL(86, 19),  // "device_stateChanged"
+        QT_MOC_LITERAL(106, 28),  // "QAbstractSocket::SocketState"
+        QT_MOC_LITERAL(135, 20),  // "device_errorOccurred"
+        QT_MOC_LITERAL(156, 28)   // "QAbstractSocket::SocketError"
     },
     "main_window",
     "device_connection",
     "",
-    "ip",
-    "port",
     "text_changed",
     "arg1",
     "device_connected",
     "device_disconnected",
     "device_stateChanged",
     "QAbstractSocket::SocketState",
-    "device_errorOccured",
+    "device_errorOccurred",
     "QAbstractSocket::SocketError"
 };
 #undef QT_MOC_LITERAL
@@ -120,20 +112,20 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSmain_windowENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    2,   50,    2, 0x08,    1 /* Private */,
-       5,    1,   55,    2, 0x08,    4 /* Private */,
-       7,    0,   58,    2, 0x08,    6 /* Private */,
-       8,    0,   59,    2, 0x08,    7 /* Private */,
-       9,    1,   60,    2, 0x08,    8 /* Private */,
-      11,    1,   63,    2, 0x08,   10 /* Private */,
+       1,    0,   50,    2, 0x08,    1 /* Private */,
+       3,    1,   51,    2, 0x08,    2 /* Private */,
+       5,    0,   54,    2, 0x08,    4 /* Private */,
+       6,    0,   55,    2, 0x08,    5 /* Private */,
+       7,    1,   56,    2, 0x08,    6 /* Private */,
+       9,    1,   59,    2, 0x08,    8 /* Private */,
 
  // slots: parameters
-    QMetaType::Void, QMetaType::QString, QMetaType::Int,    3,    4,
-    QMetaType::Void, QMetaType::QString,    6,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    4,
     QMetaType::Void,
     QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 8,    2,
     QMetaType::Void, 0x80000000 | 10,    2,
-    QMetaType::Void, 0x80000000 | 12,    2,
 
        0        // eod
 };
@@ -149,8 +141,6 @@ Q_CONSTINIT const QMetaObject main_window::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<main_window, std::true_type>,
         // method 'device_connection'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>,
         // method 'text_changed'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
@@ -161,7 +151,7 @@ Q_CONSTINIT const QMetaObject main_window::staticMetaObject = { {
         // method 'device_stateChanged'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<QAbstractSocket::SocketState, std::false_type>,
-        // method 'device_errorOccured'
+        // method 'device_errorOccurred'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<QAbstractSocket::SocketError, std::false_type>
     >,
@@ -174,12 +164,12 @@ void main_window::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         auto *_t = static_cast<main_window *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->device_connection((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2]))); break;
+        case 0: _t->device_connection(); break;
         case 1: _t->text_changed((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         case 2: _t->device_connected(); break;
         case 3: _t->device_disconnected(); break;
         case 4: _t->device_stateChanged((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketState>>(_a[1]))); break;
-        case 5: _t->device_errorOccured((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketError>>(_a[1]))); break;
+        case 5: _t->device_errorOccurred((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketError>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {

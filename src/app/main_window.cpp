@@ -13,6 +13,8 @@
 #include <QSpinBox>
 #include <QHostAddress>
 #include <QAbstractSocket>
+#include <QListWidget>
+#include <QMetaEnum>
 
 main_window::main_window(QWidget *parent)
     : QMainWindow(parent)
@@ -45,16 +47,21 @@ main_window::main_window(QWidget *parent)
     hbox_2->addWidget(insert_port);
 
     QPushButton *confirm = new QPushButton("Connect", this);
-    connect(confirm, &QPushButton::clicked, this, [=]()
-            {
-        QString device_ip = insert_ip->text();
-        int device_port = insert_port->text().toInt();
-        device_connection(device_ip, device_port); });
+    connect(confirm, &QPushButton::clicked, this, &main_window::device_connection);
+
+    list = new QListWidget();
+
+    _controller = new device_main_window();
+    connect(_controller, &device_main_window::connected, this, &main_window::device_connected);
+    connect(_controller, &device_main_window::disconnected, this, &main_window::device_disconnected);
+    connect(_controller, &device_main_window::stateChanged, this, &main_window::device_stateChanged);
+    connect(_controller, &device_main_window::errorOccurred, this, &main_window::device_errorOccurred);
 
     QVBoxLayout *VBOX = new QVBoxLayout();
     VBOX->addLayout(hbox_1);
     VBOX->addLayout(hbox_2);
     VBOX->addWidget(confirm);
+    VBOX->addWidget(list);
     VBOX->setAlignment(Qt::AlignCenter);
 
     central_widget->setLayout(VBOX);
@@ -78,28 +85,32 @@ void main_window::text_changed(const QString &arg1)
     insert_ip->style()->polish(insert_ip);
 }
 
-void main_window::device_connection(QString ip, int port)
+void main_window::device_connection()
 {
-    ip = insert_ip->text();
-    port = insert_port->value();
+    QString ip = insert_ip->text();
+    int port = insert_port->value();
 
-    device_main_window *controller = new device_main_window();
-    controller->connect_to(ip, port);
-}
-
-void main_window::set_device_controller()
-{
+    _controller->connect_to_device(ip, port);
 }
 
 void main_window::device_connected()
 {
+    list->addItem("Connected to Device");
 }
+
 void main_window::device_disconnected()
 {
+    list->addItem("Disconnected to Device");
 }
+
 void main_window::device_stateChanged(QAbstractSocket::SocketState state)
 {
+    QMetaEnum meta_enum = QMetaEnum::fromType<QAbstractSocket::SocketState>();
+    list->addItem(meta_enum.valueToKey(state));
 }
-void main_window::device_errorOccured(QAbstractSocket::SocketError error)
+
+void main_window::device_errorOccurred(QAbstractSocket::SocketError error)
 {
+    QMetaEnum meta_enum = QMetaEnum::fromType<QAbstractSocket::SocketError>();
+    list->addItem(meta_enum.valueToKey(error));
 }

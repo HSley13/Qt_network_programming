@@ -7,7 +7,6 @@
 *****************************************************************************/
 
 #include "../../../../../device/device_main_window.h"
-#include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
 
 #if __has_include(<QtCore/qtmochelpers.h>)
@@ -45,7 +44,7 @@ static constexpr auto qt_meta_stringdata_CLASSdevice_main_windowENDCLASS = QtMoc
     "disconnected",
     "stateChanged",
     "QAbstractSocket::SocketState",
-    "errorOccured",
+    "errorOccurred",
     "QAbstractSocket::SocketError"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
@@ -57,7 +56,7 @@ struct qt_meta_stringdata_CLASSdevice_main_windowENDCLASS_t {
     char stringdata3[13];
     char stringdata4[13];
     char stringdata5[29];
-    char stringdata6[13];
+    char stringdata6[14];
     char stringdata7[29];
 };
 #define QT_MOC_LITERAL(ofs, len) \
@@ -70,8 +69,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSdevice_main_windowENDCLASS_t qt
         QT_MOC_LITERAL(30, 12),  // "disconnected"
         QT_MOC_LITERAL(43, 12),  // "stateChanged"
         QT_MOC_LITERAL(56, 28),  // "QAbstractSocket::SocketState"
-        QT_MOC_LITERAL(85, 12),  // "errorOccured"
-        QT_MOC_LITERAL(98, 28)   // "QAbstractSocket::SocketError"
+        QT_MOC_LITERAL(85, 13),  // "errorOccurred"
+        QT_MOC_LITERAL(99, 28)   // "QAbstractSocket::SocketError"
     },
     "device_main_window",
     "connected",
@@ -79,7 +78,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSdevice_main_windowENDCLASS_t qt
     "disconnected",
     "stateChanged",
     "QAbstractSocket::SocketState",
-    "errorOccured",
+    "errorOccurred",
     "QAbstractSocket::SocketError"
 };
 #undef QT_MOC_LITERAL
@@ -130,7 +129,7 @@ Q_CONSTINIT const QMetaObject device_main_window::staticMetaObject = { {
         // method 'stateChanged'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<QAbstractSocket::SocketState, std::false_type>,
-        // method 'errorOccured'
+        // method 'errorOccurred'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<QAbstractSocket::SocketError, std::false_type>
     >,
@@ -146,7 +145,7 @@ void device_main_window::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         case 0: _t->connected(); break;
         case 1: _t->disconnected(); break;
         case 2: _t->stateChanged((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketState>>(_a[1]))); break;
-        case 3: _t->errorOccured((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketError>>(_a[1]))); break;
+        case 3: _t->errorOccurred((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketError>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
@@ -192,7 +191,7 @@ void device_main_window::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         }
         {
             using _t = void (device_main_window::*)(QAbstractSocket::SocketError );
-            if (_t _q_method = &device_main_window::errorOccured; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &device_main_window::errorOccurred; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 3;
                 return;
             }
@@ -250,7 +249,7 @@ void device_main_window::stateChanged(QAbstractSocket::SocketState _t1)
 }
 
 // SIGNAL 3
-void device_main_window::errorOccured(QAbstractSocket::SocketError _t1)
+void device_main_window::errorOccurred(QAbstractSocket::SocketError _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 3, _a);

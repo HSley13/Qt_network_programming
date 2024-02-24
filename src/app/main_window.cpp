@@ -38,7 +38,7 @@ main_window::main_window(QWidget *parent)
     hbox_1->addWidget(ip_address);
     hbox_1->addWidget(insert_ip);
 
-    QLabel *port_number = new QLabel("Insert the Port Number: ", this);
+    QLabel *port_number = new QLabel("Port Number: ", this);
     insert_port = new QSpinBox(this);
     insert_port->setMinimum(1024);
     insert_port->setMaximum(65535);
@@ -65,7 +65,7 @@ main_window::main_window(QWidget *parent)
 
     group = new QGroupBox();
     group->setLayout(hbox_3);
-    group->setEnabled(true);
+    group->setEnabled(false);
 
     _controller = new device_main_window();
     connect(_controller, &device_main_window::connected, this, &main_window::device_connected);

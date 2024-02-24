@@ -66,10 +66,10 @@ include device/CMakeFiles/device_library_autogen_timestamp_deps.dir/compiler_dep
 # Include the progress variables for this target.
 include device/CMakeFiles/device_library_autogen_timestamp_deps.dir/progress.make
 
-device/CMakeFiles/device_library_autogen_timestamp_deps: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
-device/CMakeFiles/device_library_autogen_timestamp_deps: /opt/homebrew/lib/QtNetwork.framework/Versions/A/QtNetwork
-device/CMakeFiles/device_library_autogen_timestamp_deps: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 device/CMakeFiles/device_library_autogen_timestamp_deps: /opt/homebrew/share/qt/libexec/uic
+device/CMakeFiles/device_library_autogen_timestamp_deps: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
+device/CMakeFiles/device_library_autogen_timestamp_deps: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
+device/CMakeFiles/device_library_autogen_timestamp_deps: /opt/homebrew/lib/QtNetwork.framework/Versions/A/QtNetwork
 device/CMakeFiles/device_library_autogen_timestamp_deps: /opt/homebrew/share/qt/libexec/moc
 
 device_library_autogen_timestamp_deps: device/CMakeFiles/device_library_autogen_timestamp_deps

@@ -194,6 +194,45 @@ device_library_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library_autogen.dir/build.make device/CMakeFiles/device_library_autogen.dir/build
 .PHONY : device_library_autogen/fast
 
+#=============================================================================
+# Target rules for targets named server
+
+# Build rule for target.
+server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server
+.PHONY : server
+
+# fast build rule for target.
+server/fast:
+	$(MAKE) $(MAKESILENT) -f server/CMakeFiles/server.dir/build.make server/CMakeFiles/server.dir/build
+.PHONY : server/fast
+
+#=============================================================================
+# Target rules for targets named server_autogen_timestamp_deps
+
+# Build rule for target.
+server_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server_autogen_timestamp_deps
+.PHONY : server_autogen_timestamp_deps
+
+# fast build rule for target.
+server_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f server/CMakeFiles/server_autogen_timestamp_deps.dir/build.make server/CMakeFiles/server_autogen_timestamp_deps.dir/build
+.PHONY : server_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named server_autogen
+
+# Build rule for target.
+server_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server_autogen
+.PHONY : server_autogen
+
+# fast build rule for target.
+server_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f server/CMakeFiles/server_autogen.dir/build.make server/CMakeFiles/server_autogen.dir/build
+.PHONY : server_autogen/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,8 +245,11 @@ help:
 	@echo "... device_library_autogen_timestamp_deps"
 	@echo "... network_autogen"
 	@echo "... network_autogen_timestamp_deps"
+	@echo "... server_autogen"
+	@echo "... server_autogen_timestamp_deps"
 	@echo "... device_library"
 	@echo "... network"
+	@echo "... server"
 .PHONY : help
 
 

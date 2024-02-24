@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.1/CMakeSystem.cmake"
   "app/.qt/info_plist/network/Info.plist"
   "/Users/test/Documents/network_programming/src/device/CMakeLists.txt"
+  "/Users/test/Documents/network_programming/src/server/CMakeLists.txt"
   "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -307,6 +308,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "app/CMakeFiles/CMakeDirectoryInformation.cmake"
   "device/CMakeFiles/device_library_autogen.dir/AutogenInfo.json"
   "device/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "server/CMakeFiles/server_autogen.dir/AutogenInfo.json"
+  "server/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -317,4 +320,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "device/CMakeFiles/device_library.dir/DependInfo.cmake"
   "device/CMakeFiles/device_library_autogen_timestamp_deps.dir/DependInfo.cmake"
   "device/CMakeFiles/device_library_autogen.dir/DependInfo.cmake"
+  "server/CMakeFiles/server.dir/DependInfo.cmake"
+  "server/CMakeFiles/server_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "server/CMakeFiles/server_autogen.dir/DependInfo.cmake"
   )

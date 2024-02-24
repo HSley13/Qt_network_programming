@@ -1,0 +1,13 @@
+qt_add_executable(server
+            server_main.cpp
+            server_main_window.cpp
+            TCP.cpp
+            )
+
+target_link_libraries(server PRIVATE 
+                        Qt6::Widgets
+                        Qt6::Core
+                        Qt6::Network
+                    )          
+
+target_include_directories(server INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})

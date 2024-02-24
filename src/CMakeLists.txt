@@ -8,3 +8,4 @@ qt_standard_project_setup()
     
 add_subdirectory(app/)
 add_subdirectory(device/)
+add_subdirectory(server/)

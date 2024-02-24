@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libserver_library.a CMakeFiles/server_library.dir/server_library_autogen/mocs_compilation.cpp.o CMakeFiles/server_library.dir/server_main.cpp.o CMakeFiles/server_library.dir/server_main_window.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libserver_library.a

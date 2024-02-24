@@ -13,6 +13,7 @@ class device_main_window : public QMainWindow
 
 public:
     device_main_window(QWidget *parent = nullptr);
+    void connect_to(QString ip, int port);
 
 private:
     QWidget *central_widget;
@@ -30,5 +31,4 @@ signals:
     void errorOccured(QAbstractSocket::SocketError);
 
 private slots:
-    void connect_to(QString ip, int port);
 };

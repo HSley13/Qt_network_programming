@@ -1,5 +1,5 @@
 #include "main_window.h"
-#include <device_library>
+#include <device_main_window.h>
 #include <QMainWindow>
 #include <QWidget>
 #include <QTcpSocket>

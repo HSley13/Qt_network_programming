@@ -1,2 +1,2 @@
 #!/bin/zsh
-cd app/build/network.app/Contents/MacOs/ && ./network
+cd app/build/app/network.app/Contents/MacOs/ && ./network

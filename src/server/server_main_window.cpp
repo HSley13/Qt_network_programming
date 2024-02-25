@@ -2,17 +2,13 @@
 #include "TCP.h"
 #include <QMainWindow>
 #include <QWidget>
-#include <QTcpSocket>
 #include <QPushButton>
-#include <QMessageBox>
 #include <QLabel>
 #include <QLineEdit>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QStyle>
 #include <QSpinBox>
-#include <QHostAddress>
-#include <QAbstractSocket>
 
 server_main_window::server_main_window(QWidget *parent)
     : QMainWindow(parent)

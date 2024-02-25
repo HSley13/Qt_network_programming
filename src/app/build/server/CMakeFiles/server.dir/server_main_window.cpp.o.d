@@ -1007,9 +1007,6 @@ server/CMakeFiles/server.dir/server_main_window.cpp.o: \
   /opt/homebrew/include/QtGui/qtextformat.h \
   /opt/homebrew/include/QtGui/qpen.h \
   /opt/homebrew/include/QtGui/qtextoption.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
-  /opt/homebrew/include/QtWidgets/qdialog.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /opt/homebrew/include/QtWidgets/qlayout.h \
@@ -1018,8 +1015,4 @@ server/CMakeFiles/server.dir/server_main_window.cpp.o: \
   /opt/homebrew/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QStyle \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qstyle.h \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/QHostAddress \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/qhostaddress.h \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/QAbstractSocket \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/qabstractsocket.h
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qstyle.h

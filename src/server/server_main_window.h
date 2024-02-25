@@ -4,11 +4,8 @@
 #include <iostream>
 #include <QMainWindow>
 #include <QWidget>
-#include <QTcpSocket>
-#include <QTcpServer>
 #include <QSpinBox>
 #include <QPushButton>
-#include <QListWidget>
 #include <QLabel>
 #include <QLineEdit>
 

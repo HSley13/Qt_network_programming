@@ -1,10 +1,8 @@
 #include "main_window.h"
-#include <device_main_window.h>
+#include <client_socket_window.h>
 #include <QMainWindow>
 #include <QWidget>
-#include <QTcpSocket>
 #include <QPushButton>
-#include <QMessageBox>
 #include <QLabel>
 #include <QLineEdit>
 #include <QVBoxLayout>
@@ -67,12 +65,12 @@ main_window::main_window(QWidget *parent)
     group->setLayout(hbox_3);
     group->setEnabled(false);
 
-    _controller = new device_main_window();
-    connect(_controller, &device_main_window::connected, this, &main_window::device_connected);
-    connect(_controller, &device_main_window::disconnected, this, &main_window::device_disconnected);
-    connect(_controller, &device_main_window::stateChanged, this, &main_window::device_stateChanged);
-    connect(_controller, &device_main_window::errorOccurred, this, &main_window::device_errorOccurred);
-    connect(_controller, &device_main_window::data_ready, this, &main_window::device_data_ready);
+    _controller = new client_socket_window();
+    connect(_controller, &client_socket_window::connected, this, &main_window::device_connected);
+    connect(_controller, &client_socket_window::disconnected, this, &main_window::device_disconnected);
+    connect(_controller, &client_socket_window::state_changed, this, &main_window::device_state_changed);
+    connect(_controller, &client_socket_window::error_occurred, this, &main_window::device_error_occurred);
+    connect(_controller, &client_socket_window::data_ready, this, &main_window::device_data_ready);
 
     QVBoxLayout *VBOX = new QVBoxLayout();
     VBOX->addLayout(hbox_1);
@@ -134,21 +132,16 @@ void main_window::device_disconnected()
     group->setEnabled(false);
 }
 
-void main_window::device_stateChanged(QAbstractSocket::SocketState state)
+void main_window::device_state_changed(QAbstractSocket::SocketState state)
 {
     QMetaEnum meta_enum = QMetaEnum::fromType<QAbstractSocket::SocketState>();
     list->addItem(meta_enum.valueToKey(state));
 }
 
-void main_window::device_errorOccurred(QAbstractSocket::SocketError error)
+void main_window::device_error_occurred(QAbstractSocket::SocketError error)
 {
     QMetaEnum meta_enum = QMetaEnum::fromType<QAbstractSocket::SocketError>();
     list->addItem(meta_enum.valueToKey(error));
-}
-
-void main_window::device_data_ready(QByteArray data)
-{
-    list->addItem(QString(data));
 }
 
 void main_window::send_func()
@@ -157,4 +150,9 @@ void main_window::send_func()
 
     _controller->send(message);
     insert_message->clear();
+}
+
+void main_window::device_data_ready(QByteArray data)
+{
+    list->addItem(QString(data));
 }

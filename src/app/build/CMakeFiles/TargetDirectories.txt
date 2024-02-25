@@ -5,11 +5,11 @@
 /Users/test/Documents/network_programming/src/app/build/app/CMakeFiles/rebuild_cache.dir
 /Users/test/Documents/network_programming/src/app/build/app/CMakeFiles/network_autogen_timestamp_deps.dir
 /Users/test/Documents/network_programming/src/app/build/app/CMakeFiles/network_autogen.dir
-/Users/test/Documents/network_programming/src/app/build/device/CMakeFiles/device_library.dir
+/Users/test/Documents/network_programming/src/app/build/device/CMakeFiles/client_socket_library.dir
 /Users/test/Documents/network_programming/src/app/build/device/CMakeFiles/edit_cache.dir
 /Users/test/Documents/network_programming/src/app/build/device/CMakeFiles/rebuild_cache.dir
-/Users/test/Documents/network_programming/src/app/build/device/CMakeFiles/device_library_autogen_timestamp_deps.dir
-/Users/test/Documents/network_programming/src/app/build/device/CMakeFiles/device_library_autogen.dir
+/Users/test/Documents/network_programming/src/app/build/device/CMakeFiles/client_socket_library_autogen_timestamp_deps.dir
+/Users/test/Documents/network_programming/src/app/build/device/CMakeFiles/client_socket_library_autogen.dir
 /Users/test/Documents/network_programming/src/app/build/server/CMakeFiles/server.dir
 /Users/test/Documents/network_programming/src/app/build/server/CMakeFiles/edit_cache.dir
 /Users/test/Documents/network_programming/src/app/build/server/CMakeFiles/rebuild_cache.dir

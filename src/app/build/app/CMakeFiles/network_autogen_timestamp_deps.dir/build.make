@@ -66,11 +66,11 @@ include app/CMakeFiles/network_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include app/CMakeFiles/network_autogen_timestamp_deps.dir/progress.make
 
-app/CMakeFiles/network_autogen_timestamp_deps: device/libdevice_library.a
-app/CMakeFiles/network_autogen_timestamp_deps: /opt/homebrew/share/qt/libexec/uic
-app/CMakeFiles/network_autogen_timestamp_deps: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
 app/CMakeFiles/network_autogen_timestamp_deps: /opt/homebrew/lib/QtNetwork.framework/Versions/A/QtNetwork
+app/CMakeFiles/network_autogen_timestamp_deps: device/libclient_socket_library.a
 app/CMakeFiles/network_autogen_timestamp_deps: /opt/homebrew/share/qt/libexec/moc
+app/CMakeFiles/network_autogen_timestamp_deps: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
+app/CMakeFiles/network_autogen_timestamp_deps: /opt/homebrew/share/qt/libexec/uic
 
 network_autogen_timestamp_deps: app/CMakeFiles/network_autogen_timestamp_deps
 network_autogen_timestamp_deps: app/CMakeFiles/network_autogen_timestamp_deps.dir/build.make

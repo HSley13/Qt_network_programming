@@ -1,7 +1,7 @@
 app/CMakeFiles/network.dir/main.cpp.o: \
   /Users/test/Documents/network_programming/src/app/main.cpp \
   /Users/test/Documents/network_programming/src/app/main_window.h \
-  /Users/test/Documents/network_programming/src/device/device_main_window.h \
+  /Users/test/Documents/network_programming/src/device/client_socket_window.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \

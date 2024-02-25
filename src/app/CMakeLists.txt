@@ -8,7 +8,7 @@ target_link_libraries(network PRIVATE
                         Qt6::Core
                         Qt6::Widgets
                         Qt6::Network
-                        device_library
+                        client_socket_library
                         )    
 
 set_target_properties(network PROPERTIES MACOSX_BUNDLE ON)

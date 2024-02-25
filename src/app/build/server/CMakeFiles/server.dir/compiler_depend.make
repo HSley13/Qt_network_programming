@@ -4011,7 +4011,6 @@ server/CMakeFiles/server.dir/server_main_window.cpp.o: /Users/test/Documents/net
   /opt/homebrew/include/QtWidgets/qabstractslider.h \
   /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
   /opt/homebrew/include/QtWidgets/qboxlayout.h \
-  /opt/homebrew/include/QtWidgets/qdialog.h \
   /opt/homebrew/include/QtWidgets/qframe.h \
   /opt/homebrew/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/include/QtWidgets/qlayout.h \
@@ -4028,12 +4027,8 @@ server/CMakeFiles/server.dir/server_main_window.cpp.o: /Users/test/Documents/net
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtWidgets/qwidget.h \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/QAbstractSocket \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/QHostAddress \
   /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpServer \
   /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/qabstractsocket.h \
-  /opt/homebrew/lib/QtNetwork.framework/Headers/qhostaddress.h \
   /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpserver.h \
   /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout \
@@ -4041,7 +4036,6 @@ server/CMakeFiles/server.dir/server_main_window.cpp.o: /Users/test/Documents/net
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QListWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QStyle \
@@ -4052,7 +4046,6 @@ server/CMakeFiles/server.dir/server_main_window.cpp.o: /Users/test/Documents/net
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlistwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qspinbox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qstyle.h \
@@ -4060,8 +4053,6 @@ server/CMakeFiles/server.dir/server_main_window.cpp.o: /Users/test/Documents/net
 
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qstyle.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h:
 
@@ -4653,8 +4644,6 @@ server/server_autogen/EWIEGA46WW/moc_TCP.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/type_list.h:
 
-/opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/operations.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_rune_t.h:
@@ -5182,8 +5171,6 @@ server/server_autogen/EWIEGA46WW/moc_TCP.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
-
-/opt/homebrew/include/QtWidgets/qdialog.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
 

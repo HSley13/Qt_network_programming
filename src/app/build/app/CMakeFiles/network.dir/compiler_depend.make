@@ -816,7 +816,7 @@ app/CMakeFiles/network.dir/main.cpp.o: /Users/test/Documents/network_programming
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
   /Users/test/Documents/network_programming/src/app/main_window.h \
-  /Users/test/Documents/network_programming/src/device/device_main_window.h \
+  /Users/test/Documents/network_programming/src/device/client_socket_window.h \
   /opt/homebrew/include/QtCore/q20functional.h \
   /opt/homebrew/include/QtCore/q20memory.h \
   /opt/homebrew/include/QtCore/q20type_traits.h \
@@ -1832,7 +1832,7 @@ app/CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_prog
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
   /Users/test/Documents/network_programming/src/app/main_window.h \
-  /Users/test/Documents/network_programming/src/device/device_main_window.h \
+  /Users/test/Documents/network_programming/src/device/client_socket_window.h \
   /opt/homebrew/include/QtCore/q20functional.h \
   /opt/homebrew/include/QtCore/q20memory.h \
   /opt/homebrew/include/QtCore/q20type_traits.h \
@@ -1995,7 +1995,6 @@ app/CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_prog
   /opt/homebrew/include/QtWidgets/qabstractslider.h \
   /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
   /opt/homebrew/include/QtWidgets/qboxlayout.h \
-  /opt/homebrew/include/QtWidgets/qdialog.h \
   /opt/homebrew/include/QtWidgets/qframe.h \
   /opt/homebrew/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/include/QtWidgets/qlayout.h \
@@ -2026,7 +2025,6 @@ app/CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_prog
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QListWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QStyle \
@@ -2038,7 +2036,6 @@ app/CMakeFiles/network.dir/main_window.cpp.o: /Users/test/Documents/network_prog
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlistwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qspinbox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qstyle.h \
@@ -2860,7 +2857,7 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
   /Users/test/Documents/network_programming/src/app/main_window.h \
   app/network_autogen/EWIEGA46WW/moc_main_window.cpp \
-  /Users/test/Documents/network_programming/src/device/device_main_window.h \
+  /Users/test/Documents/network_programming/src/device/client_socket_window.h \
   /opt/homebrew/include/QtCore/q20functional.h \
   /opt/homebrew/include/QtCore/q20memory.h \
   /opt/homebrew/include/QtCore/q20type_traits.h \
@@ -3056,8 +3053,6 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
 /opt/homebrew/include/QtCore/qtmochelpers.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qstyle.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h:
 
@@ -3323,7 +3318,7 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
 
 /opt/homebrew/include/QtCore/q20functional.h:
 
-/Users/test/Documents/network_programming/src/device/device_main_window.h:
+/Users/test/Documents/network_programming/src/device/client_socket_window.h:
 
 /Users/test/Documents/network_programming/src/app/main_window.h:
 
@@ -3638,8 +3633,6 @@ app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o: app/network_a
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/as_const.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/type_list.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/operations.h:
 
@@ -4172,8 +4165,6 @@ app/network_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
-
-/opt/homebrew/include/QtWidgets/qdialog.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
 

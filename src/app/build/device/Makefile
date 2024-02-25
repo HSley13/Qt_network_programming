@@ -117,118 +117,118 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-device/CMakeFiles/device_library.dir/rule:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 device/CMakeFiles/device_library.dir/rule
-.PHONY : device/CMakeFiles/device_library.dir/rule
+device/CMakeFiles/client_socket_library.dir/rule:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 device/CMakeFiles/client_socket_library.dir/rule
+.PHONY : device/CMakeFiles/client_socket_library.dir/rule
 
 # Convenience name for target.
-device_library: device/CMakeFiles/device_library.dir/rule
-.PHONY : device_library
+client_socket_library: device/CMakeFiles/client_socket_library.dir/rule
+.PHONY : client_socket_library
 
 # fast build rule for target.
-device_library/fast:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library.dir/build.make device/CMakeFiles/device_library.dir/build
-.PHONY : device_library/fast
+client_socket_library/fast:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library.dir/build.make device/CMakeFiles/client_socket_library.dir/build
+.PHONY : client_socket_library/fast
 
 # Convenience name for target.
-device/CMakeFiles/device_library_autogen_timestamp_deps.dir/rule:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 device/CMakeFiles/device_library_autogen_timestamp_deps.dir/rule
-.PHONY : device/CMakeFiles/device_library_autogen_timestamp_deps.dir/rule
+device/CMakeFiles/client_socket_library_autogen_timestamp_deps.dir/rule:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 device/CMakeFiles/client_socket_library_autogen_timestamp_deps.dir/rule
+.PHONY : device/CMakeFiles/client_socket_library_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-device_library_autogen_timestamp_deps: device/CMakeFiles/device_library_autogen_timestamp_deps.dir/rule
-.PHONY : device_library_autogen_timestamp_deps
+client_socket_library_autogen_timestamp_deps: device/CMakeFiles/client_socket_library_autogen_timestamp_deps.dir/rule
+.PHONY : client_socket_library_autogen_timestamp_deps
 
 # fast build rule for target.
-device_library_autogen_timestamp_deps/fast:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library_autogen_timestamp_deps.dir/build.make device/CMakeFiles/device_library_autogen_timestamp_deps.dir/build
-.PHONY : device_library_autogen_timestamp_deps/fast
+client_socket_library_autogen_timestamp_deps/fast:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library_autogen_timestamp_deps.dir/build.make device/CMakeFiles/client_socket_library_autogen_timestamp_deps.dir/build
+.PHONY : client_socket_library_autogen_timestamp_deps/fast
 
 # Convenience name for target.
-device/CMakeFiles/device_library_autogen.dir/rule:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 device/CMakeFiles/device_library_autogen.dir/rule
-.PHONY : device/CMakeFiles/device_library_autogen.dir/rule
+device/CMakeFiles/client_socket_library_autogen.dir/rule:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 device/CMakeFiles/client_socket_library_autogen.dir/rule
+.PHONY : device/CMakeFiles/client_socket_library_autogen.dir/rule
 
 # Convenience name for target.
-device_library_autogen: device/CMakeFiles/device_library_autogen.dir/rule
-.PHONY : device_library_autogen
+client_socket_library_autogen: device/CMakeFiles/client_socket_library_autogen.dir/rule
+.PHONY : client_socket_library_autogen
 
 # fast build rule for target.
-device_library_autogen/fast:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library_autogen.dir/build.make device/CMakeFiles/device_library_autogen.dir/build
-.PHONY : device_library_autogen/fast
+client_socket_library_autogen/fast:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library_autogen.dir/build.make device/CMakeFiles/client_socket_library_autogen.dir/build
+.PHONY : client_socket_library_autogen/fast
 
-device_library_autogen/mocs_compilation.o: device_library_autogen/mocs_compilation.cpp.o
-.PHONY : device_library_autogen/mocs_compilation.o
-
-# target to build an object file
-device_library_autogen/mocs_compilation.cpp.o:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library.dir/build.make device/CMakeFiles/device_library.dir/device_library_autogen/mocs_compilation.cpp.o
-.PHONY : device_library_autogen/mocs_compilation.cpp.o
-
-device_library_autogen/mocs_compilation.i: device_library_autogen/mocs_compilation.cpp.i
-.PHONY : device_library_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-device_library_autogen/mocs_compilation.cpp.i:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library.dir/build.make device/CMakeFiles/device_library.dir/device_library_autogen/mocs_compilation.cpp.i
-.PHONY : device_library_autogen/mocs_compilation.cpp.i
-
-device_library_autogen/mocs_compilation.s: device_library_autogen/mocs_compilation.cpp.s
-.PHONY : device_library_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-device_library_autogen/mocs_compilation.cpp.s:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library.dir/build.make device/CMakeFiles/device_library.dir/device_library_autogen/mocs_compilation.cpp.s
-.PHONY : device_library_autogen/mocs_compilation.cpp.s
-
-device_main.o: device_main.cpp.o
-.PHONY : device_main.o
+client_socket.o: client_socket.cpp.o
+.PHONY : client_socket.o
 
 # target to build an object file
-device_main.cpp.o:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library.dir/build.make device/CMakeFiles/device_library.dir/device_main.cpp.o
-.PHONY : device_main.cpp.o
+client_socket.cpp.o:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library.dir/build.make device/CMakeFiles/client_socket_library.dir/client_socket.cpp.o
+.PHONY : client_socket.cpp.o
 
-device_main.i: device_main.cpp.i
-.PHONY : device_main.i
+client_socket.i: client_socket.cpp.i
+.PHONY : client_socket.i
 
 # target to preprocess a source file
-device_main.cpp.i:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library.dir/build.make device/CMakeFiles/device_library.dir/device_main.cpp.i
-.PHONY : device_main.cpp.i
+client_socket.cpp.i:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library.dir/build.make device/CMakeFiles/client_socket_library.dir/client_socket.cpp.i
+.PHONY : client_socket.cpp.i
 
-device_main.s: device_main.cpp.s
-.PHONY : device_main.s
+client_socket.s: client_socket.cpp.s
+.PHONY : client_socket.s
 
 # target to generate assembly for a file
-device_main.cpp.s:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library.dir/build.make device/CMakeFiles/device_library.dir/device_main.cpp.s
-.PHONY : device_main.cpp.s
+client_socket.cpp.s:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library.dir/build.make device/CMakeFiles/client_socket_library.dir/client_socket.cpp.s
+.PHONY : client_socket.cpp.s
 
-device_main_window.o: device_main_window.cpp.o
-.PHONY : device_main_window.o
+client_socket_library_autogen/mocs_compilation.o: client_socket_library_autogen/mocs_compilation.cpp.o
+.PHONY : client_socket_library_autogen/mocs_compilation.o
 
 # target to build an object file
-device_main_window.cpp.o:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library.dir/build.make device/CMakeFiles/device_library.dir/device_main_window.cpp.o
-.PHONY : device_main_window.cpp.o
+client_socket_library_autogen/mocs_compilation.cpp.o:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library.dir/build.make device/CMakeFiles/client_socket_library.dir/client_socket_library_autogen/mocs_compilation.cpp.o
+.PHONY : client_socket_library_autogen/mocs_compilation.cpp.o
 
-device_main_window.i: device_main_window.cpp.i
-.PHONY : device_main_window.i
+client_socket_library_autogen/mocs_compilation.i: client_socket_library_autogen/mocs_compilation.cpp.i
+.PHONY : client_socket_library_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-device_main_window.cpp.i:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library.dir/build.make device/CMakeFiles/device_library.dir/device_main_window.cpp.i
-.PHONY : device_main_window.cpp.i
+client_socket_library_autogen/mocs_compilation.cpp.i:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library.dir/build.make device/CMakeFiles/client_socket_library.dir/client_socket_library_autogen/mocs_compilation.cpp.i
+.PHONY : client_socket_library_autogen/mocs_compilation.cpp.i
 
-device_main_window.s: device_main_window.cpp.s
-.PHONY : device_main_window.s
+client_socket_library_autogen/mocs_compilation.s: client_socket_library_autogen/mocs_compilation.cpp.s
+.PHONY : client_socket_library_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-device_main_window.cpp.s:
-	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library.dir/build.make device/CMakeFiles/device_library.dir/device_main_window.cpp.s
-.PHONY : device_main_window.cpp.s
+client_socket_library_autogen/mocs_compilation.cpp.s:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library.dir/build.make device/CMakeFiles/client_socket_library.dir/client_socket_library_autogen/mocs_compilation.cpp.s
+.PHONY : client_socket_library_autogen/mocs_compilation.cpp.s
+
+client_socket_window.o: client_socket_window.cpp.o
+.PHONY : client_socket_window.o
+
+# target to build an object file
+client_socket_window.cpp.o:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library.dir/build.make device/CMakeFiles/client_socket_library.dir/client_socket_window.cpp.o
+.PHONY : client_socket_window.cpp.o
+
+client_socket_window.i: client_socket_window.cpp.i
+.PHONY : client_socket_window.i
+
+# target to preprocess a source file
+client_socket_window.cpp.i:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library.dir/build.make device/CMakeFiles/client_socket_library.dir/client_socket_window.cpp.i
+.PHONY : client_socket_window.cpp.i
+
+client_socket_window.s: client_socket_window.cpp.s
+.PHONY : client_socket_window.s
+
+# target to generate assembly for a file
+client_socket_window.cpp.s:
+	cd /Users/test/Documents/network_programming/src/app/build && $(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library.dir/build.make device/CMakeFiles/client_socket_library.dir/client_socket_window.cpp.s
+.PHONY : client_socket_window.cpp.s
 
 # Help Target
 help:
@@ -238,18 +238,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... device_library_autogen"
-	@echo "... device_library_autogen_timestamp_deps"
-	@echo "... device_library"
-	@echo "... device_library_autogen/mocs_compilation.o"
-	@echo "... device_library_autogen/mocs_compilation.i"
-	@echo "... device_library_autogen/mocs_compilation.s"
-	@echo "... device_main.o"
-	@echo "... device_main.i"
-	@echo "... device_main.s"
-	@echo "... device_main_window.o"
-	@echo "... device_main_window.i"
-	@echo "... device_main_window.s"
+	@echo "... client_socket_library_autogen"
+	@echo "... client_socket_library_autogen_timestamp_deps"
+	@echo "... client_socket_library"
+	@echo "... client_socket.o"
+	@echo "... client_socket.i"
+	@echo "... client_socket.s"
+	@echo "... client_socket_library_autogen/mocs_compilation.o"
+	@echo "... client_socket_library_autogen/mocs_compilation.i"
+	@echo "... client_socket_library_autogen/mocs_compilation.s"
+	@echo "... client_socket_window.o"
+	@echo "... client_socket_window.i"
+	@echo "... client_socket_window.s"
 .PHONY : help
 
 

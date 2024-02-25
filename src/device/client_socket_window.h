@@ -4,12 +4,12 @@
 #include <QMainWindow>
 #include <QTcpSocket>
 
-class device_main_window : public QMainWindow
+class client_socket_window : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    device_main_window(QWidget *parent = nullptr);
+    client_socket_window(QWidget *parent = nullptr);
     void connect_to_device(QString ip, int port);
     void disconnect();
     QAbstractSocket::SocketState state();
@@ -28,8 +28,8 @@ private:
 signals:
     void connected();
     void disconnected();
-    void stateChanged(QAbstractSocket::SocketState);
-    void errorOccurred(QAbstractSocket::SocketError);
+    void state_changed(QAbstractSocket::SocketState);
+    void error_occurred(QAbstractSocket::SocketError);
     void data_ready(QByteArray);
 
 private slots:

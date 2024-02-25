@@ -156,43 +156,43 @@ network_autogen/fast:
 .PHONY : network_autogen/fast
 
 #=============================================================================
-# Target rules for targets named device_library
+# Target rules for targets named client_socket_library
 
 # Build rule for target.
-device_library: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 device_library
-.PHONY : device_library
+client_socket_library: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client_socket_library
+.PHONY : client_socket_library
 
 # fast build rule for target.
-device_library/fast:
-	$(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library.dir/build.make device/CMakeFiles/device_library.dir/build
-.PHONY : device_library/fast
+client_socket_library/fast:
+	$(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library.dir/build.make device/CMakeFiles/client_socket_library.dir/build
+.PHONY : client_socket_library/fast
 
 #=============================================================================
-# Target rules for targets named device_library_autogen_timestamp_deps
+# Target rules for targets named client_socket_library_autogen_timestamp_deps
 
 # Build rule for target.
-device_library_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 device_library_autogen_timestamp_deps
-.PHONY : device_library_autogen_timestamp_deps
+client_socket_library_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client_socket_library_autogen_timestamp_deps
+.PHONY : client_socket_library_autogen_timestamp_deps
 
 # fast build rule for target.
-device_library_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library_autogen_timestamp_deps.dir/build.make device/CMakeFiles/device_library_autogen_timestamp_deps.dir/build
-.PHONY : device_library_autogen_timestamp_deps/fast
+client_socket_library_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library_autogen_timestamp_deps.dir/build.make device/CMakeFiles/client_socket_library_autogen_timestamp_deps.dir/build
+.PHONY : client_socket_library_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named device_library_autogen
+# Target rules for targets named client_socket_library_autogen
 
 # Build rule for target.
-device_library_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 device_library_autogen
-.PHONY : device_library_autogen
+client_socket_library_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client_socket_library_autogen
+.PHONY : client_socket_library_autogen
 
 # fast build rule for target.
-device_library_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f device/CMakeFiles/device_library_autogen.dir/build.make device/CMakeFiles/device_library_autogen.dir/build
-.PHONY : device_library_autogen/fast
+client_socket_library_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f device/CMakeFiles/client_socket_library_autogen.dir/build.make device/CMakeFiles/client_socket_library_autogen.dir/build
+.PHONY : client_socket_library_autogen/fast
 
 #=============================================================================
 # Target rules for targets named server
@@ -241,13 +241,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... device_library_autogen"
-	@echo "... device_library_autogen_timestamp_deps"
+	@echo "... client_socket_library_autogen"
+	@echo "... client_socket_library_autogen_timestamp_deps"
 	@echo "... network_autogen"
 	@echo "... network_autogen_timestamp_deps"
 	@echo "... server_autogen"
 	@echo "... server_autogen_timestamp_deps"
-	@echo "... device_library"
+	@echo "... client_socket_library"
 	@echo "... network"
 	@echo "... server"
 .PHONY : help

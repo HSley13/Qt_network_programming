@@ -47,9 +47,9 @@ static constexpr auto qt_meta_stringdata_CLASSmain_windowENDCLASS = QtMocHelpers
     "send_func",
     "device_connected",
     "device_disconnected",
-    "device_stateChanged",
+    "device_state_changed",
     "QAbstractSocket::SocketState",
-    "device_errorOccurred",
+    "device_error_occurred",
     "QAbstractSocket::SocketError",
     "device_data_ready"
 );
@@ -64,9 +64,9 @@ struct qt_meta_stringdata_CLASSmain_windowENDCLASS_t {
     char stringdata5[10];
     char stringdata6[17];
     char stringdata7[20];
-    char stringdata8[20];
+    char stringdata8[21];
     char stringdata9[29];
-    char stringdata10[21];
+    char stringdata10[22];
     char stringdata11[29];
     char stringdata12[18];
 };
@@ -82,11 +82,11 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSmain_windowENDCLASS_t qt_meta_s
         QT_MOC_LITERAL(49, 9),  // "send_func"
         QT_MOC_LITERAL(59, 16),  // "device_connected"
         QT_MOC_LITERAL(76, 19),  // "device_disconnected"
-        QT_MOC_LITERAL(96, 19),  // "device_stateChanged"
-        QT_MOC_LITERAL(116, 28),  // "QAbstractSocket::SocketState"
-        QT_MOC_LITERAL(145, 20),  // "device_errorOccurred"
-        QT_MOC_LITERAL(166, 28),  // "QAbstractSocket::SocketError"
-        QT_MOC_LITERAL(195, 17)   // "device_data_ready"
+        QT_MOC_LITERAL(96, 20),  // "device_state_changed"
+        QT_MOC_LITERAL(117, 28),  // "QAbstractSocket::SocketState"
+        QT_MOC_LITERAL(146, 21),  // "device_error_occurred"
+        QT_MOC_LITERAL(168, 28),  // "QAbstractSocket::SocketError"
+        QT_MOC_LITERAL(197, 17)   // "device_data_ready"
     },
     "main_window",
     "device_connection",
@@ -96,9 +96,9 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSmain_windowENDCLASS_t qt_meta_s
     "send_func",
     "device_connected",
     "device_disconnected",
-    "device_stateChanged",
+    "device_state_changed",
     "QAbstractSocket::SocketState",
-    "device_errorOccurred",
+    "device_error_occurred",
     "QAbstractSocket::SocketError",
     "device_data_ready"
 };
@@ -162,10 +162,10 @@ Q_CONSTINIT const QMetaObject main_window::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'device_disconnected'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'device_stateChanged'
+        // method 'device_state_changed'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<QAbstractSocket::SocketState, std::false_type>,
-        // method 'device_errorOccurred'
+        // method 'device_error_occurred'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<QAbstractSocket::SocketError, std::false_type>,
         // method 'device_data_ready'
@@ -186,8 +186,8 @@ void main_window::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 2: _t->send_func(); break;
         case 3: _t->device_connected(); break;
         case 4: _t->device_disconnected(); break;
-        case 5: _t->device_stateChanged((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketState>>(_a[1]))); break;
-        case 6: _t->device_errorOccurred((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketError>>(_a[1]))); break;
+        case 5: _t->device_state_changed((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketState>>(_a[1]))); break;
+        case 6: _t->device_error_occurred((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketError>>(_a[1]))); break;
         case 7: _t->device_data_ready((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
         default: ;
         }

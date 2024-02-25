@@ -1,7 +1,7 @@
 app/CMakeFiles/network.dir/main_window.cpp.o: \
   /Users/test/Documents/network_programming/src/app/main_window.cpp \
   /Users/test/Documents/network_programming/src/app/main_window.h \
-  /Users/test/Documents/network_programming/src/device/device_main_window.h \
+  /Users/test/Documents/network_programming/src/device/client_socket_window.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \
@@ -1004,9 +1004,6 @@ app/CMakeFiles/network.dir/main_window.cpp.o: \
   /opt/homebrew/include/QtWidgets/qabstractbutton.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QGroupBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qgroupbox.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
-  /opt/homebrew/include/QtWidgets/qdialog.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
   /opt/homebrew/include/QtGui/qpicture.h \

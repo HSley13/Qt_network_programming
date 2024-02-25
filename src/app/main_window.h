@@ -1,6 +1,6 @@
 #pragma once
 
-#include <device_main_window.h>
+#include <client_socket_window.h>
 #include <iostream>
 #include <QMainWindow>
 #include <QWidget>
@@ -29,7 +29,7 @@ private:
 
     QPushButton *confirm_button;
 
-    device_main_window *_controller;
+    client_socket_window *_controller;
 
     QGroupBox *group;
 
@@ -40,7 +40,7 @@ private slots:
 
     void device_connected();
     void device_disconnected();
-    void device_stateChanged(QAbstractSocket::SocketState);
-    void device_errorOccurred(QAbstractSocket::SocketError);
+    void device_state_changed(QAbstractSocket::SocketState);
+    void device_error_occurred(QAbstractSocket::SocketError);
     void device_data_ready(QByteArray);
 };

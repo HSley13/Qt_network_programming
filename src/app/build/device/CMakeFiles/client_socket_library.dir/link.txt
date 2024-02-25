@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libclient_socket_library.a CMakeFiles/client_socket_library.dir/client_socket_library_autogen/mocs_compilation.cpp.o CMakeFiles/client_socket_library.dir/client_socket.cpp.o CMakeFiles/client_socket_library.dir/client_socket_window.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libclient_socket_library.a

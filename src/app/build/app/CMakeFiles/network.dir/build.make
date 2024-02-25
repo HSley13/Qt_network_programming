@@ -124,7 +124,7 @@ app/network.app/Contents/MacOS/network: app/CMakeFiles/network.dir/network_autog
 app/network.app/Contents/MacOS/network: app/CMakeFiles/network.dir/main.cpp.o
 app/network.app/Contents/MacOS/network: app/CMakeFiles/network.dir/main_window.cpp.o
 app/network.app/Contents/MacOS/network: app/CMakeFiles/network.dir/build.make
-app/network.app/Contents/MacOS/network: device/libdevice_library.a
+app/network.app/Contents/MacOS/network: device/libclient_socket_library.a
 app/network.app/Contents/MacOS/network: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
 app/network.app/Contents/MacOS/network: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
 app/network.app/Contents/MacOS/network: /opt/homebrew/lib/QtNetwork.framework/Versions/A/QtNetwork

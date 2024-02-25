@@ -2000,12 +2000,14 @@ server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: server/serve
   /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpserver.h \
   /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QListWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QSpinBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlistwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
@@ -2968,6 +2970,7 @@ server/CMakeFiles/server.dir/server_main.cpp.o: /Users/test/Documents/network_pr
   /opt/homebrew/include/QtGui/qkeysequence.h \
   /opt/homebrew/include/QtGui/qpaintdevice.h \
   /opt/homebrew/include/QtGui/qpalette.h \
+  /opt/homebrew/include/QtGui/qpen.h \
   /opt/homebrew/include/QtGui/qpicture.h \
   /opt/homebrew/include/QtGui/qpixelformat.h \
   /opt/homebrew/include/QtGui/qpixmap.h \
@@ -2975,7 +2978,10 @@ server/CMakeFiles/server.dir/server_main.cpp.o: /Users/test/Documents/network_pr
   /opt/homebrew/include/QtGui/qregion.h \
   /opt/homebrew/include/QtGui/qrgb.h \
   /opt/homebrew/include/QtGui/qrgba64.h \
+  /opt/homebrew/include/QtGui/qtextcursor.h \
   /opt/homebrew/include/QtGui/qtextdocument.h \
+  /opt/homebrew/include/QtGui/qtextformat.h \
+  /opt/homebrew/include/QtGui/qtextoption.h \
   /opt/homebrew/include/QtGui/qtgui-config.h \
   /opt/homebrew/include/QtGui/qtguiexports.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
@@ -3012,6 +3018,7 @@ server/CMakeFiles/server.dir/server_main.cpp.o: /Users/test/Documents/network_pr
   /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QListWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
@@ -3019,6 +3026,7 @@ server/CMakeFiles/server.dir/server_main.cpp.o: /Users/test/Documents/network_pr
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlistwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
@@ -4055,15 +4063,11 @@ server/CMakeFiles/server.dir/server_main_window.cpp.o: /Users/test/Documents/net
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h:
 
-/opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h:
-
 /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QVBoxLayout:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QStyle:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout:
 
@@ -4084,6 +4088,10 @@ server/CMakeFiles/server.dir/server_main_window.cpp.o: /Users/test/Documents/net
 /opt/homebrew/include/QtCore/qcoreevent.h:
 
 /Users/test/Documents/network_programming/src/server/server_main.cpp:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qlineedit.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/QLineEdit:
 
 /opt/homebrew/include/QtGui/qtextoption.h:
 

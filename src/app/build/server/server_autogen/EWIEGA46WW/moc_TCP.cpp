@@ -41,15 +41,23 @@ static constexpr auto qt_meta_stringdata_CLASSTCP_main_windowENDCLASS = QtMocHel
     "TCP_main_window",
     "on_client_connected",
     "",
-    "client_connection"
+    "data_receive",
+    "client_disconnect",
+    "client_connection",
+    "client_data_send",
+    "client_disconnection"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSTCP_main_windowENDCLASS_t {
-    uint offsetsAndSizes[8];
+    uint offsetsAndSizes[16];
     char stringdata0[16];
     char stringdata1[20];
     char stringdata2[1];
-    char stringdata3[18];
+    char stringdata3[13];
+    char stringdata4[18];
+    char stringdata5[18];
+    char stringdata6[17];
+    char stringdata7[21];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSTCP_main_windowENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -58,12 +66,20 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSTCP_main_windowENDCLASS_t qt_me
         QT_MOC_LITERAL(0, 15),  // "TCP_main_window"
         QT_MOC_LITERAL(16, 19),  // "on_client_connected"
         QT_MOC_LITERAL(36, 0),  // ""
-        QT_MOC_LITERAL(37, 17)   // "client_connection"
+        QT_MOC_LITERAL(37, 12),  // "data_receive"
+        QT_MOC_LITERAL(50, 17),  // "client_disconnect"
+        QT_MOC_LITERAL(68, 17),  // "client_connection"
+        QT_MOC_LITERAL(86, 16),  // "client_data_send"
+        QT_MOC_LITERAL(103, 20)   // "client_disconnection"
     },
     "TCP_main_window",
     "on_client_connected",
     "",
-    "client_connection"
+    "data_receive",
+    "client_disconnect",
+    "client_connection",
+    "client_data_send",
+    "client_disconnection"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -75,23 +91,31 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSTCP_main_windowENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       6,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       1,       // signalCount
+       3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   26,    2, 0x06,    1 /* Public */,
+       1,    0,   50,    2, 0x06,    1 /* Public */,
+       3,    1,   51,    2, 0x06,    2 /* Public */,
+       4,    0,   54,    2, 0x06,    4 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    0,   27,    2, 0x08,    2 /* Private */,
+       5,    0,   55,    2, 0x08,    5 /* Private */,
+       6,    0,   56,    2, 0x08,    6 /* Private */,
+       7,    0,   57,    2, 0x08,    7 /* Private */,
 
  // signals: parameters
     QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    2,
+    QMetaType::Void,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
 
        0        // eod
@@ -108,7 +132,16 @@ Q_CONSTINIT const QMetaObject TCP_main_window::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<TCP_main_window, std::true_type>,
         // method 'on_client_connected'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'data_receive'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
+        // method 'client_disconnect'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'client_connection'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'client_data_send'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'client_disconnection'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -121,7 +154,11 @@ void TCP_main_window::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         (void)_t;
         switch (_id) {
         case 0: _t->on_client_connected(); break;
-        case 1: _t->client_connection(); break;
+        case 1: _t->data_receive((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 2: _t->client_disconnect(); break;
+        case 3: _t->client_connection(); break;
+        case 4: _t->client_data_send(); break;
+        case 5: _t->client_disconnection(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -133,8 +170,21 @@ void TCP_main_window::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
                 return;
             }
         }
+        {
+            using _t = void (TCP_main_window::*)(QString );
+            if (_t _q_method = &TCP_main_window::data_receive; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            using _t = void (TCP_main_window::*)();
+            if (_t _q_method = &TCP_main_window::client_disconnect; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 2;
+                return;
+            }
+        }
     }
-    (void)_a;
 }
 
 const QMetaObject *TCP_main_window::metaObject() const
@@ -156,13 +206,13 @@ int TCP_main_window::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 6;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 6)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 6;
     }
     return _id;
 }
@@ -171,5 +221,18 @@ int TCP_main_window::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 void TCP_main_window::on_client_connected()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+void TCP_main_window::data_receive(QString _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void TCP_main_window::client_disconnect()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
 }
 QT_WARNING_POP

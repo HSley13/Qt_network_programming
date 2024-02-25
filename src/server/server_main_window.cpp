@@ -47,13 +47,34 @@ server_main_window::server_main_window(QWidget *parent)
     connect(clear_button, &QPushButton::clicked, this, [=]()
             { list->clear(); });
 
+    QLabel *message = new QLabel("Message all connected Clients", this);
+    insert_message = new QLineEdit(this);
+    QHBoxLayout *hbox_3 = new QHBoxLayout();
+    hbox_3->addWidget(message);
+    hbox_3->addWidget(insert_message);
+
+    send = new QPushButton("Send", this);
+    connect(send, &QPushButton::clicked, this, &server_main_window::send_func);
+
     QVBoxLayout *VBOX = new QVBoxLayout();
     VBOX->addLayout(hbox_1);
     VBOX->addLayout(hbox_2);
     VBOX->addWidget(list);
     VBOX->addWidget(clear_button);
+    VBOX->addLayout(hbox_3);
+    VBOX->addWidget(send);
 
     central_widget->setLayout(VBOX);
+}
+
+void server_main_window::client_data_receive(QString message)
+{
+    list->addItem(message);
+}
+
+void server_main_window::client_disconnected()
+{
+    list->addItem("Client Disconnected");
 }
 
 void server_main_window::server_func()
@@ -62,6 +83,8 @@ void server_main_window::server_func()
 
     _server = new TCP_main_window(port);
     connect(_server, &TCP_main_window::on_client_connected, this, &server_main_window::client_connected);
+    connect(_server, &TCP_main_window::data_receive, this, &server_main_window::client_data_receive);
+    connect(_server, &TCP_main_window::client_disconnect, this, &server_main_window::client_disconnected);
 
     state = (_server->is_started_func()) ? "1" : "0";
 
@@ -72,4 +95,12 @@ void server_main_window::server_func()
 void server_main_window::client_connected()
 {
     list->addItem("New Client Connected");
+}
+
+void server_main_window::send_func()
+{
+    QString message_1 = insert_message->text().trimmed();
+    _server->send_to_all(message_1);
+
+    insert_message->clear();
 }

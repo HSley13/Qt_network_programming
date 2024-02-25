@@ -20,9 +20,24 @@ TCP_main_window::TCP_main_window(int port, QWidget *parent)
         qDebug() << "Server connection Error";
 }
 
+void TCP_main_window::client_data_send()
+{
+    auto socket = qobject_cast<QTcpSocket *>(sender());
+    QString data = socket->readAll();
+
+    emit data_receive(data);
+}
+
+void TCP_main_window::client_disconnection()
+{
+    emit client_disconnect();
+}
+
 void TCP_main_window::client_connection()
 {
     auto socket = _server->nextPendingConnection();
+    connect(socket, &QTcpSocket::readyRead, this, &TCP_main_window::client_data_send);
+    connect(socket, &QTcpSocket::disconnected, this, &TCP_main_window::client_disconnection);
 
     sockets_list.append(socket);
     socket->write("Welcome to the Server");
@@ -32,4 +47,10 @@ void TCP_main_window::client_connection()
 bool TCP_main_window::is_started_func() const
 {
     return is_started;
+}
+
+void TCP_main_window::send_to_all(QString message)
+{
+    foreach (auto socket, sockets_list)
+        socket->write(message.toUtf8());
 }

@@ -1,7 +1,6 @@
 #pragma once
 
 #include <client_socket_window.h>
-#include <iostream>
 #include <QMainWindow>
 #include <QWidget>
 #include <QTcpSocket>
@@ -40,7 +39,5 @@ private slots:
 
     void device_connected();
     void device_disconnected();
-    void device_state_changed(QAbstractSocket::SocketState);
-    void device_error_occurred(QAbstractSocket::SocketError);
     void device_data_ready(QByteArray);
 };

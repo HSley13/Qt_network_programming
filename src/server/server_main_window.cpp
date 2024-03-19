@@ -1,10 +1,5 @@
 #include "server_main_window.h"
 #include "TCP.h"
-#include <QMainWindow>
-#include <QWidget>
-#include <QPushButton>
-#include <QLabel>
-#include <QLineEdit>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QStyle>
@@ -24,7 +19,7 @@ server_main_window::server_main_window(QWidget *parent)
     hbox_1->addWidget(port_number);
     hbox_1->addWidget(insert_port);
 
-    confirm_button = new QPushButton("Start Sever", this);
+    confirm_button = new QPushButton("Start Sever / Disconnect", this);
     connect(confirm_button, &QPushButton::clicked, this, &server_main_window::server_func);
 
     LED = new QLabel(this);
@@ -78,6 +73,7 @@ void server_main_window::server_func()
     int port = insert_port->value();
 
     _server = new TCP_main_window(port);
+
     connect(_server, &TCP_main_window::on_client_connected, this, &server_main_window::client_connected);
     connect(_server, &TCP_main_window::data_receive, this, &server_main_window::client_data_receive);
     connect(_server, &TCP_main_window::client_disconnect, this, &server_main_window::client_disconnected);

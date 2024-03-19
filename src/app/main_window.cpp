@@ -1,18 +1,11 @@
 #include "main_window.h"
 #include <client_socket_window.h>
-#include <QMainWindow>
-#include <QWidget>
-#include <QPushButton>
-#include <QLabel>
-#include <QLineEdit>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QStyle>
-#include <QSpinBox>
 #include <QHostAddress>
 #include <QAbstractSocket>
-#include <QListWidget>
-#include <QMetaEnum>
+#include <QLabel>
 
 main_window::main_window(QWidget *parent)
     : QMainWindow(parent)
@@ -68,8 +61,6 @@ main_window::main_window(QWidget *parent)
     _controller = new client_socket_window();
     connect(_controller, &client_socket_window::connected, this, &main_window::device_connected);
     connect(_controller, &client_socket_window::disconnected, this, &main_window::device_disconnected);
-    connect(_controller, &client_socket_window::state_changed, this, &main_window::device_state_changed);
-    connect(_controller, &client_socket_window::error_occurred, this, &main_window::device_error_occurred);
     connect(_controller, &client_socket_window::data_ready, this, &main_window::device_data_ready);
 
     QVBoxLayout *VBOX = new QVBoxLayout();
@@ -130,18 +121,6 @@ void main_window::device_disconnected()
     confirm_button->setText("Connect");
 
     group->setEnabled(false);
-}
-
-void main_window::device_state_changed(QAbstractSocket::SocketState state)
-{
-    QMetaEnum meta_enum = QMetaEnum::fromType<QAbstractSocket::SocketState>();
-    list->addItem(meta_enum.valueToKey(state));
-}
-
-void main_window::device_error_occurred(QAbstractSocket::SocketError error)
-{
-    QMetaEnum meta_enum = QMetaEnum::fromType<QAbstractSocket::SocketError>();
-    list->addItem(meta_enum.valueToKey(error));
 }
 
 void main_window::send_func()

@@ -979,8 +979,10 @@ device/CMakeFiles/client_socket_library.dir/client_socket.cpp.o
  /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget
  /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
 
 device/CMakeFiles/client_socket_library.dir/client_socket_library_autogen/mocs_compilation.cpp.o
  /Users/test/Documents/network_programming/src/app/build/device/client_socket_library_autogen/mocs_compilation.cpp
@@ -1952,7 +1954,9 @@ device/CMakeFiles/client_socket_library.dir/client_socket_library_autogen/mocs_c
  /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket
  /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
 
 device/CMakeFiles/client_socket_library.dir/client_socket_window.cpp.o
  /Users/test/Documents/network_programming/src/device/client_socket_window.cpp

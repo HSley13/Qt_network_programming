@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <QMainWindow>
+#include <QWidget>
 #include <QTcpSocket>
 
 class client_socket_window : public QMainWindow
@@ -28,8 +29,6 @@ private:
 signals:
     void connected();
     void disconnected();
-    void state_changed(QAbstractSocket::SocketState);
-    void error_occurred(QAbstractSocket::SocketError);
     void data_ready(QByteArray);
 
 private slots:

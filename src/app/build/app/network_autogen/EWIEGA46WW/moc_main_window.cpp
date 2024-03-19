@@ -47,15 +47,11 @@ static constexpr auto qt_meta_stringdata_CLASSmain_windowENDCLASS = QtMocHelpers
     "send_func",
     "device_connected",
     "device_disconnected",
-    "device_state_changed",
-    "QAbstractSocket::SocketState",
-    "device_error_occurred",
-    "QAbstractSocket::SocketError",
     "device_data_ready"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSmain_windowENDCLASS_t {
-    uint offsetsAndSizes[26];
+    uint offsetsAndSizes[18];
     char stringdata0[12];
     char stringdata1[18];
     char stringdata2[1];
@@ -64,11 +60,7 @@ struct qt_meta_stringdata_CLASSmain_windowENDCLASS_t {
     char stringdata5[10];
     char stringdata6[17];
     char stringdata7[20];
-    char stringdata8[21];
-    char stringdata9[29];
-    char stringdata10[22];
-    char stringdata11[29];
-    char stringdata12[18];
+    char stringdata8[18];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSmain_windowENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -82,11 +74,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSmain_windowENDCLASS_t qt_meta_s
         QT_MOC_LITERAL(49, 9),  // "send_func"
         QT_MOC_LITERAL(59, 16),  // "device_connected"
         QT_MOC_LITERAL(76, 19),  // "device_disconnected"
-        QT_MOC_LITERAL(96, 20),  // "device_state_changed"
-        QT_MOC_LITERAL(117, 28),  // "QAbstractSocket::SocketState"
-        QT_MOC_LITERAL(146, 21),  // "device_error_occurred"
-        QT_MOC_LITERAL(168, 28),  // "QAbstractSocket::SocketError"
-        QT_MOC_LITERAL(197, 17)   // "device_data_ready"
+        QT_MOC_LITERAL(96, 17)   // "device_data_ready"
     },
     "main_window",
     "device_connection",
@@ -96,10 +84,6 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSmain_windowENDCLASS_t qt_meta_s
     "send_func",
     "device_connected",
     "device_disconnected",
-    "device_state_changed",
-    "QAbstractSocket::SocketState",
-    "device_error_occurred",
-    "QAbstractSocket::SocketError",
     "device_data_ready"
 };
 #undef QT_MOC_LITERAL
@@ -112,7 +96,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSmain_windowENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       8,   14, // methods
+       6,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -120,14 +104,12 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSmain_windowENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   62,    2, 0x08,    1 /* Private */,
-       3,    1,   63,    2, 0x08,    2 /* Private */,
-       5,    0,   66,    2, 0x08,    4 /* Private */,
-       6,    0,   67,    2, 0x08,    5 /* Private */,
-       7,    0,   68,    2, 0x08,    6 /* Private */,
-       8,    1,   69,    2, 0x08,    7 /* Private */,
-      10,    1,   72,    2, 0x08,    9 /* Private */,
-      12,    1,   75,    2, 0x08,   11 /* Private */,
+       1,    0,   50,    2, 0x08,    1 /* Private */,
+       3,    1,   51,    2, 0x08,    2 /* Private */,
+       5,    0,   54,    2, 0x08,    4 /* Private */,
+       6,    0,   55,    2, 0x08,    5 /* Private */,
+       7,    0,   56,    2, 0x08,    6 /* Private */,
+       8,    1,   57,    2, 0x08,    7 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -135,8 +117,6 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSmain_windowENDCLASS[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 9,    2,
-    QMetaType::Void, 0x80000000 | 11,    2,
     QMetaType::Void, QMetaType::QByteArray,    2,
 
        0        // eod
@@ -162,12 +142,6 @@ Q_CONSTINIT const QMetaObject main_window::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'device_disconnected'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'device_state_changed'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<QAbstractSocket::SocketState, std::false_type>,
-        // method 'device_error_occurred'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<QAbstractSocket::SocketError, std::false_type>,
         // method 'device_data_ready'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<QByteArray, std::false_type>
@@ -186,28 +160,8 @@ void main_window::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 2: _t->send_func(); break;
         case 3: _t->device_connected(); break;
         case 4: _t->device_disconnected(); break;
-        case 5: _t->device_state_changed((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketState>>(_a[1]))); break;
-        case 6: _t->device_error_occurred((*reinterpret_cast< std::add_pointer_t<QAbstractSocket::SocketError>>(_a[1]))); break;
-        case 7: _t->device_data_ready((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
+        case 5: _t->device_data_ready((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
         default: ;
-        }
-    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        switch (_id) {
-        default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-        case 5:
-            switch (*reinterpret_cast<int*>(_a[1])) {
-            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-            case 0:
-                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QAbstractSocket::SocketState >(); break;
-            }
-            break;
-        case 6:
-            switch (*reinterpret_cast<int*>(_a[1])) {
-            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-            case 0:
-                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< QAbstractSocket::SocketError >(); break;
-            }
-            break;
         }
     }
 }
@@ -231,13 +185,13 @@ int main_window::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 8)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 6;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 8)
-            qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        if (_id < 6)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 6;
     }
     return _id;
 }

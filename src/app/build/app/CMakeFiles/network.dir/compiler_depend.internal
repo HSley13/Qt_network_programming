@@ -2013,8 +2013,6 @@ app/CMakeFiles/network.dir/main_window.cpp.o
  /opt/homebrew/include/QtWidgets/qtwidgetsexports.h
  /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h
  /opt/homebrew/include/QtWidgets/qwidget.h
- /opt/homebrew/lib/QtCore.framework/Headers/QMetaEnum
- /opt/homebrew/lib/QtCore.framework/Headers/qmetaobject.h
  /opt/homebrew/lib/QtNetwork.framework/Headers/QAbstractSocket
  /opt/homebrew/lib/QtNetwork.framework/Headers/QHostAddress
  /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket

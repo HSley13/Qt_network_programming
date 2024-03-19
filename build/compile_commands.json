@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/Users/test/Documents/network_programming/build/app",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/Users/test/Documents/network_programming/src/device -isystem /Users/test/Documents/network_programming/build/app/network_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o -c /Users/test/Documents/network_programming/build/app/network_autogen/mocs_compilation.cpp",
+  "file": "/Users/test/Documents/network_programming/build/app/network_autogen/mocs_compilation.cpp",
+  "output": "app/CMakeFiles/network.dir/network_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/test/Documents/network_programming/build/app",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/Users/test/Documents/network_programming/src/device -isystem /Users/test/Documents/network_programming/build/app/network_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/network.dir/main.cpp.o -c /Users/test/Documents/network_programming/src/app/main.cpp",
+  "file": "/Users/test/Documents/network_programming/src/app/main.cpp",
+  "output": "app/CMakeFiles/network.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/test/Documents/network_programming/build/app",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/Users/test/Documents/network_programming/src/device -isystem /Users/test/Documents/network_programming/build/app/network_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/network.dir/main_window.cpp.o -c /Users/test/Documents/network_programming/src/app/main_window.cpp",
+  "file": "/Users/test/Documents/network_programming/src/app/main_window.cpp",
+  "output": "app/CMakeFiles/network.dir/main_window.cpp.o"
+},
+{
+  "directory": "/Users/test/Documents/network_programming/build/device",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -isystem /Users/test/Documents/network_programming/build/device/client_socket_library_autogen/include -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/client_socket_library.dir/client_socket_library_autogen/mocs_compilation.cpp.o -c /Users/test/Documents/network_programming/build/device/client_socket_library_autogen/mocs_compilation.cpp",
+  "file": "/Users/test/Documents/network_programming/build/device/client_socket_library_autogen/mocs_compilation.cpp",
+  "output": "device/CMakeFiles/client_socket_library.dir/client_socket_library_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/test/Documents/network_programming/build/device",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -isystem /Users/test/Documents/network_programming/build/device/client_socket_library_autogen/include -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/client_socket_library.dir/client_socket.cpp.o -c /Users/test/Documents/network_programming/src/device/client_socket.cpp",
+  "file": "/Users/test/Documents/network_programming/src/device/client_socket.cpp",
+  "output": "device/CMakeFiles/client_socket_library.dir/client_socket.cpp.o"
+},
+{
+  "directory": "/Users/test/Documents/network_programming/build/device",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -isystem /Users/test/Documents/network_programming/build/device/client_socket_library_autogen/include -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/client_socket_library.dir/client_socket_window.cpp.o -c /Users/test/Documents/network_programming/src/device/client_socket_window.cpp",
+  "file": "/Users/test/Documents/network_programming/src/device/client_socket_window.cpp",
+  "output": "device/CMakeFiles/client_socket_library.dir/client_socket_window.cpp.o"
+},
+{
+  "directory": "/Users/test/Documents/network_programming/build/server",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -isystem /Users/test/Documents/network_programming/build/server/server_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o -c /Users/test/Documents/network_programming/build/server/server_autogen/mocs_compilation.cpp",
+  "file": "/Users/test/Documents/network_programming/build/server/server_autogen/mocs_compilation.cpp",
+  "output": "server/CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/test/Documents/network_programming/build/server",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -isystem /Users/test/Documents/network_programming/build/server/server_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/server.dir/server_main.cpp.o -c /Users/test/Documents/network_programming/src/server/server_main.cpp",
+  "file": "/Users/test/Documents/network_programming/src/server/server_main.cpp",
+  "output": "server/CMakeFiles/server.dir/server_main.cpp.o"
+},
+{
+  "directory": "/Users/test/Documents/network_programming/build/server",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -isystem /Users/test/Documents/network_programming/build/server/server_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/server.dir/server_main_window.cpp.o -c /Users/test/Documents/network_programming/src/server/server_main_window.cpp",
+  "file": "/Users/test/Documents/network_programming/src/server/server_main_window.cpp",
+  "output": "server/CMakeFiles/server.dir/server_main_window.cpp.o"
+},
+{
+  "directory": "/Users/test/Documents/network_programming/build/server",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -isystem /Users/test/Documents/network_programming/build/server/server_autogen/include -isystem /opt/homebrew/lib/QtCore.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/server.dir/TCP.cpp.o -c /Users/test/Documents/network_programming/src/server/TCP.cpp",
+  "file": "/Users/test/Documents/network_programming/src/server/TCP.cpp",
+  "output": "server/CMakeFiles/server.dir/TCP.cpp.o"
+}
+]

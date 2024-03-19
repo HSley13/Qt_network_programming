@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <QMainWindow>
+#include <QWidget>
 #include <QTcpSocket>
 #include <QTcpServer>
 #include <QSpinBox>

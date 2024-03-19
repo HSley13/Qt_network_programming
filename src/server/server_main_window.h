@@ -1,7 +1,6 @@
 #pragma once
 
 #include "TCP.h"
-#include <iostream>
 #include <QMainWindow>
 #include <QWidget>
 #include <QSpinBox>

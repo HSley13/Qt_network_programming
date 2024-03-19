@@ -978,8 +978,10 @@ device/CMakeFiles/client_socket_library.dir/client_socket.cpp.o: /Users/test/Doc
   /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
 
 device/CMakeFiles/client_socket_library.dir/client_socket_library_autogen/mocs_compilation.cpp.o: device/client_socket_library_autogen/mocs_compilation.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
@@ -1950,7 +1952,9 @@ device/CMakeFiles/client_socket_library.dir/client_socket_library_autogen/mocs_c
   /opt/homebrew/lib/QtNetwork.framework/Headers/QTcpSocket \
   /opt/homebrew/lib/QtNetwork.framework/Headers/qtcpsocket.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
 
 device/CMakeFiles/client_socket_library.dir/client_socket_window.cpp.o: /Users/test/Documents/network_programming/src/device/client_socket_window.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
@@ -2924,17 +2928,17 @@ device/CMakeFiles/client_socket_library.dir/client_socket_window.cpp.o: /Users/t
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
 
 
-/opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/QWidget:
-
 /Users/test/Documents/network_programming/src/device/client_socket_window.cpp:
 
 /opt/homebrew/include/QtCore/qtmochelpers.h:
 
 device/client_socket_library_autogen/mocs_compilation.cpp:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h:
+
 /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/QWidget:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow:
 

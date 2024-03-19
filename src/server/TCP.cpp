@@ -1,8 +1,4 @@
 #include "TCP.h"
-#include <QMainWindow>
-#include <QWidget>
-#include <QTcpSocket>
-#include <QSpinBox>
 #include <QHostAddress>
 #include <QAbstractSocket>
 
@@ -22,7 +18,7 @@ TCP_main_window::TCP_main_window(int port, QWidget *parent)
 
 void TCP_main_window::client_data_send()
 {
-    auto socket = qobject_cast<QTcpSocket *>(sender());
+    QTcpSocket *socket = qobject_cast<QTcpSocket *>(sender());
     QString data = socket->readAll();
 
     emit data_receive(data);
@@ -35,11 +31,13 @@ void TCP_main_window::client_disconnection()
 
 void TCP_main_window::client_connection()
 {
-    auto socket = _server->nextPendingConnection();
+    QTcpSocket *socket = _server->nextPendingConnection();
+
     connect(socket, &QTcpSocket::readyRead, this, &TCP_main_window::client_data_send);
     connect(socket, &QTcpSocket::disconnected, this, &TCP_main_window::client_disconnection);
 
-    sockets_list.append(socket);
+    sockets_list << socket;
+
     socket->write("Welcome to the Server");
     emit on_client_connected();
 }
@@ -51,6 +49,6 @@ bool TCP_main_window::is_started_func() const
 
 void TCP_main_window::send_to_all(QString message)
 {
-    foreach (auto socket, sockets_list)
+    for (QTcpSocket *socket : sockets_list)
         socket->write(message.toUtf8());
 }
